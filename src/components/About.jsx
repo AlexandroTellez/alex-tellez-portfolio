@@ -7,7 +7,7 @@ const About = () => {
             <h2 className="my-20 text-center text-4xl shadow-2xl transform transition duration-500 ease-in-out
                             hover:scale-110 hover:shadow-2xl hover:text-white">
                 About
-                <span className="text-blue-300"> Me </span>
+                <span className="text-neutral-400"> Me </span>
             </h2>
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2 lg:p-8">
