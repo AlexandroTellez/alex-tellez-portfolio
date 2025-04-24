@@ -1,6 +1,5 @@
 import { HERO_CONTENT } from "../constants"
 
-
 const Hero = () => {
     return (
         <div className="border-b border-neutral-900 pb-4 lg:mb-35">
@@ -32,14 +31,3 @@ const Hero = () => {
 }
 
 export default Hero
-
-/**
- * import profilePic from "../assets/AlexTellezProfile.png"
- *                 <div className="w-full lg:w-1/2 lg:p-8">
-                    <div className="flex justify-center">
-                        <img src={profilePic}
-                            alt="Alex Tellez"
-                            className="rounded-2xl object-cover max-w-full"/>
-                    </div>
-                </div>
- */
