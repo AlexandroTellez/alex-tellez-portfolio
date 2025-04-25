@@ -7,8 +7,6 @@
 
 Professional portfolio developed with modern technologies to showcase my projects and skills as a Full Stack Developer.
 
-![Portfolio Preview](https://i.imgur.com/your-screenshot-url.jpg)
-
 ---
 
 ## 🚀 Technologies Used
