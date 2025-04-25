@@ -20,7 +20,7 @@ const About = () => {
                 <div className="w-full lg:w-1/2">
                     <div className="flex justify-center lg:justify-start">
                         <p className="my-2 max-w-xl py-7 ">Hi, I’m Alex Tellez, a passionate and results-driven
-                            Junior Web Developer. With hands-on experience in building dynamic and scalable web applications.
+                            Junior Software Developer. With hands-on experience in building dynamic and scalable web applications.
                             I specialize in technologies like React, Next.js, Angular, FastAPI, and Spring Boot.
                             I have developed proficiency in working with databases such as MySQL, PostgreSQL, and MongoDB,
                             and I’m comfortable with deployment strategies using Docker and AWS.
