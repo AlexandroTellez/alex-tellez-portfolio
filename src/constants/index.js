@@ -1,9 +1,9 @@
-import project1 from "../assets/projects/TaskProX.png";
-import project2 from "../assets/projects/e-commerce-Fitness.jpg";
-import project3 from "../assets/projects/TaskProX.png";
-import project4 from "../assets/projects/social-media.jpg";
-import project5 from "../assets/projects/Quiz.jpg";
-import project6 from "../assets/projects/Employee-manager.jpg";
+import project1 from "../assets/projects/project1.png";
+import project2 from "../assets/projects/project2.jpg";
+import project3 from "../assets/projects/project3.png";
+import project4 from "../assets/projects/project4.jpg";
+import project5 from "../assets/projects/project5.jpg";
+import project6 from "../assets/projects/project6.jpg";
 
 export const HERO_CONTENT = `"Software development is not just a job; it’s a passion that drives innovation."`;
 
@@ -38,48 +38,54 @@ export const PROJECTS = [
     title: "Task Management App",
     image: project1,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["FastApi", "CSS", "React", "MongoDB"],
+      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.", //change the description when you finish the project.
+    githubUrl: "https://github.com/AlexandroTellez/TaskProX",
+    technologies: ["FastApi", "Tailwind CSS", "React", "MongoDB"], //change the technologies when you finish the project.
   },
   {
     title: "E-Commerce Website",
     image: project2,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.", //change the description when you finish the project.
+    githubUrl: "https://github.com/AlexandroTellez", // change the url when you upload the project to github.
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"], //change the technologies when you finish the project.
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A personal portfolio website showcasing projects, skills, and contact information.", //change the description when you finish the project.
+    githubUrl: "https://github.com/AlexandroTellez/alex-tellez-portfolio",
+    technologies: ["HTML", "CSS", "React", "Bootstrap"], //change the technologies when you finish the project.
   },
   {
     title: "Social-Media Platform",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.", //change the description when you finish the project.
+    githubUrl: "https://github.com/AlexandroTellez", // change the url when you upload the project to github.
+    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"], //change the technologies when you finish the project.
   },
   {
     title: "Quiz App",
     image: project5,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.", //change the description when you finish the project.
+    githubUrl: "https://github.com/AlexandroTellez", // change the url when you upload the project to github.
+    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"], //change the technologies when you finish the project.
   },
   {
     title: "Employee Management System",
     image: project6,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.", //change the description when you finish the project.
+    githubUrl: "https://github.com/AlexandroTellez", // change the url when you upload the project to github.
+    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"], //change the technologies when you finish the project.
   },
 ];
 
 export const CONTACT = {
   address: "Méntrida, Toledo, Spain",
   phoneNo: "+34 603 16 36 56",
-  email: "alextellezyanes@example.com",
+  email: "alextellezyanes@gmail.com",
 };

@@ -14,7 +14,7 @@ const Technologies = () => {
         <div className="border-b border-neutral-800 pb-24">
             <h2 className=" my-20 text-center text-4xl shadow-2xl transform transition duration-500 ease-in-out
                             hover:scale-110 hover:shadow-2xl hover:text-white">
-                <span className="text-blue-300">Tech</span>
+                <span className="text-blue-400">Tech</span>
                 nologies
             </h2>
             <div className="flex flex-wrap items-center justify-center gap-4">
