@@ -10,18 +10,23 @@ const Projects = () => {
             </h2>
             <div>
                 {PROJECTS.map((project, index) => (
-                    <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-                        <div className="w-full lg:w-1/4">
+                    <div
+                        key={index}
+                        className={`mb-12 flex flex-wrap items-center justify-center gap-6 lg:gap-12 
+                            ${index % 2 !== 0 ? 'lg:flex-row-reverse' : 'lg:flex-row'}`}
+                    >
+                        {/* Imagen*/}
+                        <div className="w-full lg:w-1/3 flex justify-center lg:max-w-[300px]">
                             <img
                                 src={project.image}
-                                height={150}
-                                width={150}
                                 alt={project.title}
-                                className="mb-6 rounded"
+                                className="rounded shadow-lg w-full h-auto object-cover lg:max-h-[300px]"
                             />
                         </div>
-                        <div className="w-full max-w-xl lg:w-3/4">
-                            <h6 className="mb-2 font-semibold text-neutral-100">{project.title}</h6>
+                        
+                        {/* Description */}
+                        <div className="w-full max-w-xl lg:w-2/3">
+                            <h6 className="mb-2 font-semibold text-neutral-100 text-xl">{project.title}</h6>
                             <p className="mb-4 text-neutral-400">{project.description}</p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {project.technologies.map((tech, index) => (
@@ -49,8 +54,7 @@ const Projects = () => {
                 ))}
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Projects;
-
