@@ -1,12 +1,90 @@
-# React + Vite
+# Alex Tellez - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Vercel Deployment](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel)](https://alextellezy.com)
+[![React](https://img.shields.io/badge/Framework-React-blue?logo=react)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Styles-Tailwind_CSS-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Animations-Framer_Motion-0055FF?logo=framer)](https://www.framer.com/motion/)
 
-Currently, two official plugins are available:
+Professional portfolio developed with modern technologies to showcase my projects and skills as a Full Stack Developer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Portfolio Preview](https://i.imgur.com/your-screenshot-url.jpg)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Technologies Used
+
+- **Frontend**:
+  ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white)
+  ![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white)
+  
+- **Styling**:
+  ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
+  
+- **Animations**:
+  ![Framer Motion](https://img.shields.io/badge/-Framer_Motion-0055FF?logo=framer)
+
+- **Deployment**:
+  ![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel&logoColor=white)
+
+---
+
+## ✨ Key Features
+
+✔️ Responsive and modern design.
+✔️ Smooth animation effects with Framer Motion.
+✔️ Organized sections: About Me, Technologies, Experience, and Projects.
+✔️ Built-in dark mode.
+✔️ Functional contact form.
+
+---
+
+## ⚙️ Project Setup
+
+### 1. Clone the Repository 📂
+
+* Run the following commands to clone the repository and navigate to the project directory:
+```
+git clone https://github.com/AlexandroTellez/alex-tellez-portfolio.git
+```
+### 2. Run the project ▶️
+
+1. Open the project in VS Code or your preferred IDE.
+2. Install dependencies in your Terminal:
+```
+npm install
+```
+3. Start the application using the following command:
+```
+npm run dev
+```
+### 4. Project Structure 🗂️
+
+```
+src/
+├── assets/           # Images and resources
+├── components/       # Reusable components
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   └── ...
+├── App.jsx           # Main component
+└── main.jsx          # Entry point
+```
+---
+
+### 5. 🌐 Live Demo
+The project is deployed on Vercel:
+👉 https://alextellezy.com
+
+### 6. Contributions 🙌
+
+* Contributions are welcome! If you have ideas or improvements for this project, feel free to open an issue or submit a pull request.
+
+---
+
+### 7. Contact me 📧
+
+* **Author**: Alexandro Tellez
+* **Email**: alextellezyanes@gmail.com
+* **LinkedIn**: [Alexandro Tellez](https://www.linkedin.com/in/alex-tellez-y/)
+
+---
