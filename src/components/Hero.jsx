@@ -31,7 +31,7 @@ const Hero = () => {
                         {/* Subtitle */}
                         <motion.span
                             initial={{ scale: 0.95, opacity: 0.9 }}
-                            animate={{ scale: 1.05, opacity: 1 }}
+                            animate={{ scale: 1.2, opacity: 1 }}
                             whileHover={{
                                 scale: 1.1,
                                 color: "#fff",
@@ -52,7 +52,7 @@ const Hero = () => {
                         {/* Description */}
                         <motion.p
                             initial={{ scale: 0.95, opacity: 0 }}
-                            animate={{ scale: 1, opacity: 1 }}
+                            animate={{ scale: 1.2, opacity: 1 }}
                             whileHover={{
                                 scale: 1.03,
                                 color: "#fff",
@@ -80,7 +80,7 @@ const Hero = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="GitHub"
-                                className="text-gray-300 hover:text-white transition duration-300"
+                                className="text-gray-400 hover:text-gray-100 transition duration-300"
                             >
                                 <FaGithub />
                             </a>
@@ -89,7 +89,7 @@ const Hero = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="LinkedIn"
-                                className="text-blue-400 hover:text-white transition duration-300"
+                                className="text-blue-500 hover:text-blue-100 transition duration-300"
                             >
                                 <FaLinkedin />
                             </a>
@@ -98,7 +98,7 @@ const Hero = () => {
                                 download
                                 rel="noopener noreferrer"
                                 aria-label="Download CV"
-                                className="text-purple-400 hover:text-white transition duration-300"
+                                className="text-purple-500 hover:text-purple-100 transition duration-300"
                             >
                                 <FaFileDownload />
                             </a>
