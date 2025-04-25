@@ -22,7 +22,7 @@ export const EXPERIENCES = [
     role: "Web Developer",
     company: "Freelance",
     description: `Developed and deployed several freelance full stack web applications. Delivered polished, responsive user interfaces while implementing robust backends. Ensured reliable performance and maintainability, adapting to client needs and project goals with agility and precision.`,
-    technologies: ["React", "Next.js", "Angular", "Spring Boot", "FastAPI", "REST APIs", "PostgreSQL", "MySQL", "MongoDB", "Docker","AWS"],
+    technologies: ["React", "Next.js", "Angular", "Spring Boot", "FastAPI", "REST APIs", "PostgreSQL", "MySQL", "MongoDB", "Docker", "AWS"],
   },
   /*{
     year: "May 2021 - March 2022",
@@ -35,12 +35,13 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Task Management App",
+    title: "Developer Portfolio",
     image: project1,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.", //change the description when you finish the project.
-    githubUrl: "https://github.com/AlexandroTellez/TaskProX",
-    technologies: ["FastApi", "Tailwind CSS", "React", "MongoDB"], //change the technologies when you finish the project.
+      "Personal portfolio built with React, Tailwind CSS and Framer Motion — fast, responsive, and animated. Designed to highlight my projects and tech stack, and deployed on Vercel for seamless performance.",
+    githubUrl: "https://github.com/AlexandroTellez/alex-tellez-portfolio",
+    liveUrl: "https://alextellezy.com",
+    technologies: ["React", "Tailwind CSS", "Framer Motion", "Vite", "Vercel"]
   },
   {
     title: "E-Commerce Website",
@@ -51,12 +52,12 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"], //change the technologies when you finish the project.
   },
   {
-    title: "Portfolio Website",
+    title: "Task Management App",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.", //change the description when you finish the project.
-    githubUrl: "https://github.com/AlexandroTellez/alex-tellez-portfolio",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"], //change the technologies when you finish the project.
+      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.", //change the description when you finish the project.
+    githubUrl: "https://github.com/AlexandroTellez/TaskProX",
+    technologies: ["FastApi", "Tailwind CSS", "React", "MongoDB"], //change the technologies when you finish the project.
   },
   {
     title: "Social-Media Platform",
