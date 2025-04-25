@@ -13,7 +13,7 @@ const Hero = () => {
                         </h1>
 
                         <span className="bg-gradient-to-r from-blue-300 via-slate-500 to-purple-500
-                            bg-clip-text text-4xl tracking-tight text-transparent
+                            bg-clip-text text-2xl sm:text-3xl lg:text-4xl tracking-tight text-transparent
                             shadow-xl transform transition duration-500 ease-in-out
                             hover:scale-110 hover:shadow-2xl hover:text-white ">
                             Junior Software Developer
