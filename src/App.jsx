@@ -9,23 +9,36 @@ import Contact from './components/Contact.jsx';
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:text-purple-400">
-      <div className="fixed top-0 -z-10 h-full w-full">
-        <div className="absolute inset-0 -z-10 h-full w-full items-center px-5
-      py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]">
+      {/* Background */}
+      <div className="fixed top-0 -z-10 h-full w-full bg-[#0a0a1a] overflow-hidden  backdrop-blur-sm">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900/20 via-transparent to-transparent">
         </div>
       </div>
 
+      {/* Content */}
       <div className="container mx-auto px-8">
         <Navbar />
-        <Hero />
-        <About />
-        <Technologies />
-        <Experience />
-        <Projects />
-        <Contact />
+        <section id="hero">
+          <Hero />
+        </section>
+        <section id="about_me">
+          <About />
+        </section>
+        <section id="technologies">
+          <Technologies />
+        </section>
+        <section id="work_experience">
+          <Experience />
+        </section>
+        <section id="feature_projects">
+          <Projects />
+        </section>
+        <section id="innovate_with_me">
+          <Contact />
+        </section>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -18,19 +18,19 @@ export const EXPERIENCES = [
     technologies: ["Python", "FastAPI", "MongoDB", "JavaScript", "React.js", "Next.js", "Tailwind CSS"],
   },
   {
-    year: "March 2022 - January 2025",
-    role: "Administrative Assistant",
-    company: "Venechar Cocinas S.L.",
-    description: `Handled administrative tasks in the production and order management department, ensuring accurate data processing, task automation, and smooth coordination across teams. Improved workflow efficiency in a high-demand environment.`,
-    technologies: ["Microsoft Excel", "Data Analysis", "Process Automation", "Problem Solving"],
+    year: "September 2024 - Present",
+    role: "Web Developer",
+    company: "Freelance",
+    description: `Developed and deployed several freelance full stack web applications. Delivered polished, responsive user interfaces while implementing robust backends. Ensured reliable performance and maintainability, adapting to client needs and project goals with agility and precision.`,
+    technologies: ["React", "Next.js", "Angular", "Spring Boot", "FastAPI", "REST APIs", "PostgreSQL", "MySQL", "MongoDB", "Docker","AWS"],
   },
-  {
+  /*{
     year: "May 2021 - March 2022",
     role: "Digital Marketing Specialist",
     company: "Freelance",
     description: `Planned and executed digital campaigns for healthcare clients, focusing on Facebook Ads, email marketing, and sales funnels. Improved data analysis, automation, and client communication through performance-driven strategies.`,
     technologies: ["Facebook Ads", "Email Marketing", "Automation", "Data Analysis", "Digital Tools"]
-  },
+  },*/
 ];
 
 export const PROJECTS = [

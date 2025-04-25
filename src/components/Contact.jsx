@@ -27,19 +27,19 @@ const Contact = () => {
             transition={{ duration: 1 }}
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
                 {/* Address */}
-                <div className="flex flex-col items-center p-6 bg-neutral-900 rounded-lg shadow-lg hover:scale-105 transition-all duration-300">
-                    <FaMapMarkerAlt className="text-4xl text-neutral-300 mb-4" />
+                <div className="flex flex-col items-center p-6 backdrop-blur-md bg-white/10 rounded-xl shadow-lg hover:scale-105 transition-all duration-300 border border-white/20">
+                    <FaMapMarkerAlt className="text-4xl text-neutral-200 mb-4" />
                     <p className="text-neutral-100">{CONTACT.address}</p>
                 </div>
                 {/* Phone */}
-                <div className="flex flex-col items-center p-6 bg-neutral-900 rounded-lg shadow-lg hover:scale-105 transition-all duration-300">
-                    <FaPhoneAlt className="text-4xl text-blue-400 mb-4" />
+                <div className="flex flex-col items-center p-6 backdrop-blur-md bg-white/10 rounded-xl shadow-lg hover:scale-105 transition-all duration-300 border border-white/20">
+                    <FaPhoneAlt className="text-4xl text-neutral-200 mb-4" />
                     <p className="text-neutral-100">{CONTACT.phoneNo}</p>
                 </div>
                 {/* Email */}
-                <div className="flex flex-col items-center p-6 bg-neutral-900 rounded-lg shadow-lg hover:scale-105 transition-all duration-300">
-                    <FaEnvelope className="text-4xl text-purple-400 mb-4" />
-                    <a href="mailto:alextellezyanes@gmail.com" className="text-neutral-100 border-b hover:text-purple-600 transition duration-300">
+                <div className="flex flex-col items-center p-6 backdrop-blur-md bg-white/10 rounded-xl shadow-lg hover:scale-105 transition-all duration-300 border border-white/20">
+                    <FaEnvelope className="text-4xl text-neutral-200 mb-4" />
+                    <a href="mailto:alextellezyanes@gmail.com" className="text-neutral-100 border-b hover:text-blue-400 transition duration-300">
                         {CONTACT.email}
                     </a>
                 </div>
