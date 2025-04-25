@@ -6,9 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      animation: {
-        'bounce-slow': 'bounce 5s infinite',
-      },
     },
   },
   plugins: [],
