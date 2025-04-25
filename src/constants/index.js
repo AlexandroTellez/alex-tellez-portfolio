@@ -11,32 +11,25 @@ export const ABOUT_TEXT = `I am a results-driven Junior Web Developer with exper
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "March 2025 - Present",
+    role: "Junior Web Developer Intern",
+    company: "Davara & Davara Asesores Jurídicos S.L.",
+    description: `Focused on building and maintaining frontend interfaces using React.js, Next.js, and Tailwind CSS, based on Figma designs. Participated in the initial configuration of the project environment and tooling. Contributed to the backend using FastAPI and MongoDB, implementing RESTful endpoints and assisting in API integration.`,
+    technologies: ["Python", "FastAPI", "MongoDB", "JavaScript", "React.js", "Next.js", "Tailwind CSS"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "March 2022 - January 2025",
+    role: "Administrative Assistant",
+    company: "Venechar Cocinas S.L.",
+    description: `Handled administrative tasks in the production and order management department, ensuring accurate data processing, task automation, and smooth coordination across teams. Improved workflow efficiency in a high-demand environment.`,
+    technologies: ["Microsoft Excel", "Data Analysis", "Process Automation", "Problem Solving"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "May 2021 - March 2022",
+    role: "Digital Marketing Specialist",
+    company: "Freelance",
+    description: `Planned and executed digital campaigns for healthcare clients, focusing on Facebook Ads, email marketing, and sales funnels. Improved data analysis, automation, and client communication through performance-driven strategies.`,
+    technologies: ["Facebook Ads", "Email Marketing", "Automation", "Data Analysis", "Digital Tools"]
   },
 ];
 

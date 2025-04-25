@@ -16,7 +16,7 @@ const Hero = () => {
                             bg-clip-text text-4xl tracking-tight text-transparent
                             shadow-xl transform transition duration-500 ease-in-out
                             hover:scale-110 hover:shadow-2xl hover:text-white ">
-                            Junior Web Developer
+                            Junior Software Developer
                         </span>
 
                         <p className="max-w-xl py-6 font-light tracking-tighter shadow-2xl transform transition duration-500 ease-in-out
