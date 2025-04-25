@@ -1,14 +1,31 @@
 import { CONTACT } from "../constants/index.js";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+import { motion } from 'framer-motion';
 
 const Contact = () => {
     return (
         <div className="border-b border-neutral-900 pb-20">
-            <h2 className="my-10 text-center text-4xl shadow-2xl transform transition
-            duration-500 ease-in-out hover:scale-110 hover:shadow-2xl hover:text-white"
-            >Innovate with <span className="text-neutral-400"> Me </span>
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
+            <motion.h2
+                initial={{ scale: 0.95, opacity: 0.9 }}
+                animate={{ scale: 1.2, opacity: 1 }}
+                whileHover={{
+                    scale: 1.1,
+                    color: "#fff",
+                    boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)"
+                }}
+                transition={{
+                    default: { duration: 1.2, ease: "easeOut" },
+                    hover: { duration: 0.5 }
+                }}
+                className="my-20 text-center text-4xl shadow-2xl"
+            >
+                Innovate with<span className="text-neutral-400"> Me</span>
+            </motion.h2>
+            <motion.div
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
+            transition={{ duration: 1 }}
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
                 {/* Address */}
                 <div className="flex flex-col items-center p-6 bg-neutral-900 rounded-lg shadow-lg hover:scale-105 transition-all duration-300">
                     <FaMapMarkerAlt className="text-4xl text-neutral-300 mb-4" />
@@ -26,7 +43,7 @@ const Contact = () => {
                         {CONTACT.email}
                     </a>
                 </div>
-            </div>
+            </motion.div>
         </div>
     )
 }
