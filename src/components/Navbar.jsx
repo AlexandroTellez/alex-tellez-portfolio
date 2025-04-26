@@ -17,7 +17,9 @@ const Navbar = () => {
             <div className="flex flex-wrap items-center justify-between">
                 {/* Logo */}
                 <div className="flex items-center flex-shrink-0">
-                    <img src={logo} alt="logo" className="h-90 w-auto" />
+                    <a href="/">
+                        <img src={logo} alt="logo" className="h-90 w-auto" />
+                    </a>
                 </div>
 
                 {/* Desktop Menu */}
