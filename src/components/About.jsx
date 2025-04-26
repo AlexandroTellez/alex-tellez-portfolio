@@ -63,7 +63,7 @@ const About = () => {
                                         aria-label="GitHub"
                                         className="text-blue-300 hover:text-blue-700"
                                     >GitHub</a>
-                                    {""},{" "}
+                                    {""} and{" "}
                                     <a
                                         href="https://www.linkedin.com/in/alex-tellez-y/"
                                         target="_blank"

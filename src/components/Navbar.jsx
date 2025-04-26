@@ -2,11 +2,11 @@ import { useState } from "react";
 import logo from "../assets/Logo-white.png";
 
 const NAV_ITEMS = [
-    { label: "About Me", href: "#about_me", hoverColor: "hover:text-gray-400"},
+    { label: "About Me", href: "#about_me", hoverColor: "hover:text-purple-400"},
     { label: "Technologies", href: "#technologies", hoverColor: "hover:text-blue-400"},
     { label: "Work Experience", href: "#work_experience", hoverColor: "hover:text-purple-400"},
     { label: "Feature Projects", href: "#feature_projects", hoverColor: "hover:text-blue-400" },
-    { label: "Innovate with Me", href: "#innovate_with_me", hoverColor: "hover:text-gray-400" },
+    { label: "Innovate with Me", href: "#innovate_with_me", hoverColor: "hover:text-purple-400 underline underline-offset-8 decoration-white " },
 ];
 
 const Navbar = () => {
