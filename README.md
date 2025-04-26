@@ -73,13 +73,9 @@ src/
 The project is deployed on Vercel:
 👉 https://alextellezy.com
 
-### 6. Contributions 🙌
-
-* Contributions are welcome! If you have ideas or improvements for this project, feel free to open an issue or submit a pull request.
-
 ---
 
-### 7. Contact me 📧
+### 6. Contact me 📧
 
 * **Author**: Alexandro Tellez
 * **Email**: alextellezyanes@gmail.com
