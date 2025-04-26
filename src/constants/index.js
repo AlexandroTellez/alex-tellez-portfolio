@@ -43,7 +43,7 @@ export const PROJECTS = [
     liveUrl: "https://alextellezy.com",
     technologies: ["React", "Tailwind CSS", "Framer Motion", "Vite", "Vercel"]
   },
-  {
+  /*{
     title: "E-Commerce Website",
     image: project2,
     description:
@@ -83,6 +83,7 @@ export const PROJECTS = [
     githubUrl: "https://github.com/AlexandroTellez", // change the url when you upload the project to github.
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"], //change the technologies when you finish the project.
   },
+]; */
 ];
 
 export const CONTACT = {
