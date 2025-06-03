@@ -1,5 +1,5 @@
 import project1 from "../assets/projects/project1.png";
-import project2 from "../assets/projects/project2.jpg";
+import project2 from "../assets/projects/Taskprox.png";
 import project3 from "../assets/projects/project3.png";
 import project4 from "../assets/projects/project4.jpg";
 import project5 from "../assets/projects/project5.jpg";
@@ -43,47 +43,41 @@ export const PROJECTS = [
     liveUrl: "https://alextellezy.com",
     technologies: ["React", "Tailwind CSS", "Framer Motion", "Vite", "Vercel"]
   },
-  /*{
-    title: "E-Commerce Website",
+  {
+    title: "TaskProX - Project & Task Manager",
     image: project2,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.", //change the description when you finish the project.
-    githubUrl: "https://github.com/AlexandroTellez", // change the url when you upload the project to github.
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"], //change the technologies when you finish the project.
-  },
-  {
-    title: "Task Management App",
-    image: project3,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.", //change the description when you finish the project.
+      "A complete and responsive web application for managing tasks and collaborative projects. Includes user authentication with JWT, role-based permissions, calendar view, Kanban board, file attachments, and dark/light mode support.",
     githubUrl: "https://github.com/AlexandroTellez/TaskProX",
-    technologies: ["FastApi", "Tailwind CSS", "React", "MongoDB"], //change the technologies when you finish the project.
+    websiteURL: "https://task-pro-x.vercel.app/login",
+    technologies: ["FastAPI", "React", "MongoDB", "Tailwind CSS", "Ant Design", "Day.js"],
   },
-  {
-    title: "Social-Media Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.", //change the description when you finish the project.
-    githubUrl: "https://github.com/AlexandroTellez", // change the url when you upload the project to github.
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"], //change the technologies when you finish the project.
-  },
-  {
-    title: "Quiz App",
-    image: project5,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.", //change the description when you finish the project.
-    githubUrl: "https://github.com/AlexandroTellez", // change the url when you upload the project to github.
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"], //change the technologies when you finish the project.
-  },
-  {
-    title: "Employee Management System",
-    image: project6,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.", //change the description when you finish the project.
-    githubUrl: "https://github.com/AlexandroTellez", // change the url when you upload the project to github.
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"], //change the technologies when you finish the project.
-  },
-]; */
+  /*
+    {
+      title: "Employee Management System",
+      image: project3,
+      description:
+        "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.", //change the description when you finish the project.
+      githubUrl: "https://github.com/AlexandroTellez", // change the url when you upload the project to github.
+      technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"], //change the technologies when you finish the project.
+    },
+    {
+      title: "Social-Media Platform",
+      image: project4,
+      description:
+        "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.", //change the description when you finish the project.
+      githubUrl: "https://github.com/AlexandroTellez", // change the url when you upload the project to github.
+      technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"], //change the technologies when you finish the project.
+    },
+    {
+      title: "Quiz App",
+      image: project5,
+      description:
+        "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.", //change the description when you finish the project.
+      githubUrl: "https://github.com/AlexandroTellez", // change the url when you upload the project to github.
+      technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"], //change the technologies when you finish the project.
+    },
+  ]; */
 ];
 
 export const CONTACT = {

@@ -1,5 +1,5 @@
 import { PROJECTS } from '../constants';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaGlobe } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 const Projects = () => {
@@ -59,17 +59,30 @@ const Projects = () => {
                                     </span>
                                 ))}
                             </div>
-                            {project.githubUrl && (
-                                <a
-                                    href={project.githubUrl}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="inline-flex items-center gap-2 rounded bg-blue-500 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-600 transition"
-                                >
-                                    <FaGithub className="text-lg" />
-                                    View on GitHub
-                                </a>
-                            )}
+                            <div className="flex flex-wrap gap-4">
+                                {project.githubUrl && (
+                                    <a
+                                        href={project.githubUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-2 rounded bg-blue-500 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-600 transition"
+                                    >
+                                        <FaGithub className="text-lg" />
+                                        View on GitHub
+                                    </a>
+                                )}
+                                {project.title === "TaskProX - Project & Task Manager" && project.websiteURL && (
+                                    <a
+                                        href={project.websiteURL}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-2 rounded bg-purple-700 px-4 py-2 text-sm font-semibold text-white hover:bg-purple-700 transition"
+                                    >
+                                        <FaGlobe className="text-lg" />
+                                        View Website
+                                    </a>
+                                )}
+                            </div>
                         </motion.div>
                     </div>
                 ))}
