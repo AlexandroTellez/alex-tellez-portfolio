@@ -40,7 +40,7 @@ const Technologies = () => {
                 }}
                 className="my-20 text-center text-4xl shadow-2xl"
             >
-                <span className="text-blue-400">Tech</span>nologies
+                <span className="text-purple-400">Tech</span>nologies
             </motion.h2>
             <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
@@ -110,6 +110,7 @@ const Technologies = () => {
                     className="rounded-full border-4 border-[#2496ED] p-4">
                     <FaDocker className="text-7xl text-[#2496ED]" />
                 </motion.div>
+                {/*
                 <motion.div
                     variants={iconVariants(2.5)}
                     initial="initial"
@@ -117,6 +118,7 @@ const Technologies = () => {
                     className="rounded-full border-4 border-[#FF9900] p-4">
                     <FaAws className="text-7xl text-[#FF9900]" />
                 </motion.div>
+                */}
             </motion.div>
         </div>
     )

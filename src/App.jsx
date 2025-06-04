@@ -5,6 +5,7 @@ import Technologies from './components/Technologies.jsx';
 import Experience from './components/Experience.jsx';
 import Projects from './components/Projects.jsx';
 import Contact from './components/Contact.jsx';
+import Skills from './components/Skills.jsx';
 
 const App = () => {
   return (
@@ -25,6 +26,9 @@ const App = () => {
         </section>
         <section id="about_me">
           <About />
+        </section>
+        <section id="Skills">
+          <Skills />
         </section>
         <section id="technologies">
           <Technologies />

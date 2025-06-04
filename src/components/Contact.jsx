@@ -1,5 +1,5 @@
 import { CONTACT } from "../constants/index.js";
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaGithub, FaLinkedin, FaFileDownload  } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 const Contact = () => {
@@ -22,10 +22,10 @@ const Contact = () => {
                 Innovate with<span className="text-neutral-400"> Me</span>
             </motion.h2>
             <motion.div
-            whileInView={{ opacity: 1, y: 0 }}
-            initial={{ opacity: 0, y: -100 }}
-            transition={{ duration: 1 }}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
+                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: -100 }}
+                transition={{ duration: 1 }}
+                className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
                 {/* Address */}
                 <div className="flex flex-col items-center p-6 backdrop-blur-md bg-white/10 rounded-xl shadow-lg hover:scale-105 transition-all duration-300 border border-white/20">
                     <FaMapMarkerAlt className="text-4xl text-neutral-200 mb-4" />
@@ -44,6 +44,43 @@ const Contact = () => {
                     </a>
                 </div>
             </motion.div>
+            <div className=" flex flex-row items-center justify-center p-10">
+                {/* Links */}
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 1.5, ease: "easeOut" }}
+                    className="m-1 flex items-center justify-center gap-6 text-4xl"
+                >
+                    <a
+                        href="https://github.com/AlexandroTellez"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub"
+                        className="text-gray-400 hover:text-gray-100 transition duration-300"
+                    >
+                        <FaGithub />
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/alex-tellez-y/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn"
+                        className="text-blue-500 hover:text-blue-100 transition duration-300"
+                    >
+                        <FaLinkedin />
+                    </a>
+                    <a
+                        href="/CV-Alexandro-Tellez.pdf"
+                        download
+                        rel="noopener noreferrer"
+                        aria-label="Download CV"
+                        className="text-purple-500 hover:text-purple-100 transition duration-300"
+                    >
+                        <FaFileDownload />
+                    </a>
+                </motion.div>
+            </div>
         </div>
     )
 }
