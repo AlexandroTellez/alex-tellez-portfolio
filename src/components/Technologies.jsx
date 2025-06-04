@@ -7,8 +7,9 @@ import { SiMysql } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiMongodb } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
-import { FaAws } from "react-icons/fa";
+import { FaAws, FaCloudversify, FaRocket } from "react-icons/fa";
 import { motion } from "framer-motion";
+
 
 const iconVariants = (duration) => ({
     initial: { y: -10 },
@@ -110,6 +111,24 @@ const Technologies = () => {
                     className="rounded-full border-4 border-[#2496ED] p-4">
                     <FaDocker className="text-7xl text-[#2496ED]" />
                 </motion.div>
+                <motion.div
+                    variants={iconVariants(3.8)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-full border-4 border-purple-500 p-4"
+                >
+                    <FaCloudversify className="text-7xl text-purple-500" />
+                </motion.div>
+
+                <motion.div
+                    variants={iconVariants(4.0)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-full border-4 border-gray-200 p-4"
+                >
+                    <FaRocket className="text-7xl text-white" />
+                </motion.div>
+
                 {/*
                 <motion.div
                     variants={iconVariants(2.5)}
