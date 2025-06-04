@@ -7,8 +7,9 @@ import { SiMysql } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiMongodb } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
-import { FaAws } from "react-icons/fa";
+import { FaAws, FaCloudversify, FaRocket } from "react-icons/fa";
 import { motion } from "framer-motion";
+
 
 const iconVariants = (duration) => ({
     initial: { y: -10 },
@@ -40,7 +41,7 @@ const Technologies = () => {
                 }}
                 className="my-20 text-center text-4xl shadow-2xl"
             >
-                <span className="text-blue-400">Tech</span>nologies
+                <span className="text-purple-400">Tech</span>nologies
             </motion.h2>
             <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
@@ -111,12 +112,32 @@ const Technologies = () => {
                     <FaDocker className="text-7xl text-[#2496ED]" />
                 </motion.div>
                 <motion.div
+                    variants={iconVariants(3.8)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-full border-4 border-purple-500 p-4"
+                >
+                    <FaCloudversify className="text-7xl text-purple-500" />
+                </motion.div>
+
+                <motion.div
+                    variants={iconVariants(4.0)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-full border-4 border-gray-200 p-4"
+                >
+                    <FaRocket className="text-7xl text-white" />
+                </motion.div>
+
+                {/*
+                <motion.div
                     variants={iconVariants(2.5)}
                     initial="initial"
                     animate="animate"
                     className="rounded-full border-4 border-[#FF9900] p-4">
                     <FaAws className="text-7xl text-[#FF9900]" />
                 </motion.div>
+                */}
             </motion.div>
         </div>
     )

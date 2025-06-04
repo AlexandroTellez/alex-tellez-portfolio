@@ -18,7 +18,7 @@ const Experience = () => {
                 }}
                 className="my-20 text-center text-4xl shadow-2xl"
             >
-                Work<span className="text-purple-400"> Experience</span>
+                Work<span className="text-blue-400"> Experience</span>
             </motion.h2>
             <div className="">
                 {EXPERIENCES.map((experience, index) => (
@@ -36,7 +36,7 @@ const Experience = () => {
                             transition={{ duration: 1 }}
                             className="w-full max-w-xl lg:w-3/4">
                             <h6 className="mb-2 font-semibold text-neutral-100">
-                                {experience.role} - <span className="text-sm text-purple-100">{experience.company}</span>
+                                {experience.role} - <span className="text-sm text-blue-100">{experience.company}</span>
                             </h6>
                             <p className="mb-4 text-neutral-400">{experience.description}</p>
                             <div className="flex flex-wrap gap-2">
@@ -44,7 +44,7 @@ const Experience = () => {
                                     <span
                                         key={index}
                                         className="rounded bg-neutral-900 px-2 py-1 text-sm font-medium
-                                                text-purple-500 whitespace-nowrap">
+                                                text-blue-500 whitespace-nowrap">
                                         {tech}
                                     </span>
                                 ))}

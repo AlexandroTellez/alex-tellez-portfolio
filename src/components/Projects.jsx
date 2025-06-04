@@ -19,7 +19,7 @@ const Projects = () => {
                 }}
                 className="my-20 text-center text-4xl shadow-2xl"
             >
-                <span className="text-blue-400">Feature</span> Projects
+                <span className="text-purple-400">Feature</span> Projects
             </motion.h2>
             <div>
                 {PROJECTS.map((project, index) => (
@@ -53,36 +53,38 @@ const Projects = () => {
                                 {project.technologies.map((tech, index) => (
                                     <span
                                         key={index}
-                                        className="rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-blue-400 whitespace-nowrap"
+                                        className="rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-400 whitespace-nowrap"
                                     >
                                         {tech}
                                     </span>
                                 ))}
                             </div>
-                            <div className="flex flex-wrap gap-4">
+                            <div className="flex flex-wrap gap-4 mt-4">
                                 {project.githubUrl && (
                                     <a
                                         href={project.githubUrl}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="inline-flex items-center gap-2 rounded bg-blue-500 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-600 transition"
+                                        className="inline-flex items-center gap-2 rounded-lg bg-gray-500 px-5 py-2.5 font-medium text-white shadow-md transition hover:bg-gray-700"
                                     >
                                         <FaGithub className="text-lg" />
-                                        View on GitHub
+                                        GitHub
                                     </a>
                                 )}
-                                {project.title === "TaskProX - Project & Task Manager" && project.websiteURL && (
+                                {project.title === "TaskProX - Project & Task Manager" && project.liveUrl && (
                                     <a
-                                        href={project.websiteURL}
+                                        href={project.liveUrl}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="inline-flex items-center gap-2 rounded bg-purple-700 px-4 py-2 text-sm font-semibold text-white hover:bg-purple-700 transition"
+                                        className="inline-flex items-center gap-2 rounded-lg bg-emerald-600 px-5 py-2.5 font-medium text-white shadow-md transition hover:bg-emerald-700"
                                     >
                                         <FaGlobe className="text-lg" />
-                                        View Website
+                                        Live Demo
                                     </a>
+
                                 )}
                             </div>
+
                         </motion.div>
                     </div>
                 ))}
