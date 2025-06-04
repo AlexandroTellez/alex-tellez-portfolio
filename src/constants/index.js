@@ -50,7 +50,7 @@ export const PROJECTS = [
       "A complete and responsive web application for managing tasks and collaborative projects. Includes user authentication with JWT, role-based permissions, calendar view, Kanban board, file attachments, and dark/light mode support.",
     githubUrl: "https://github.com/AlexandroTellez/TaskProX",
     websiteURL: "https://task-pro-x.vercel.app/login",
-    technologies: ["FastAPI", "React", "MongoDB", "Tailwind CSS", "Ant Design", "Day.js"],
+    technologies: ["FastAPI", "MongoDB", "React", "Tailwind CSS", "Ant Design", "Render", "Vercel"]
   },
   /*
     {
