@@ -83,8 +83,7 @@ const About = () => {
                             >
                                 LinkedIn
                             </a>
-                            . Additionally, If you're interested in my experience, you can
-                            also{" "}
+                            . Additionally, if you're interested in learning more about my experience, you can{" "}
                             <a
                                 href="/CV-Alexandro-Tellez.pdf"
                                 download
@@ -94,8 +93,19 @@ const About = () => {
                             >
                                 download my CV
                             </a>{" "}
+                            and{" "}
+                            <a
+                                href="/Cover-Letter-Alexandro-Tellez.pdf"
+                                download
+                                rel="noopener noreferrer"
+                                aria-label="Download Cover Letter"
+                                className="text-purple-300 hover:text-blue-500"
+                            >
+                                cover letter
+                            </a>{" "}
                             for a detailed overview of my skills and projects.
                         </p>
+
                     </div>
                 </motion.div>
             </div>

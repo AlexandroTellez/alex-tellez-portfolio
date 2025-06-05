@@ -1,5 +1,5 @@
 import { CONTACT } from "../constants/index.js";
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaGithub, FaLinkedin, FaFileDownload  } from 'react-icons/fa';
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaGithub, FaLinkedin, FaFileDownload, FaEnvelopeOpenText } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 const Contact = () => {
@@ -78,6 +78,15 @@ const Contact = () => {
                         className="text-purple-500 hover:text-purple-100 transition duration-300"
                     >
                         <FaFileDownload />
+                    </a>
+                    <a
+                        href="/Cover-Letter-Alexandro-Tellez.pdf"
+                        download
+                        rel="noopener noreferrer"
+                        aria-label="Download Cover Letter"
+                        className=" text-indigo-500 hover:text-indigo-100 transition duration-300"
+                    >
+                        <FaEnvelopeOpenText />
                     </a>
                 </motion.div>
             </div>

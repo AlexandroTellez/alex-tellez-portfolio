@@ -1,6 +1,6 @@
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaFileDownload } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFileDownload, FaEnvelopeOpenText } from "react-icons/fa";
 
 const Hero = () => {
     return (
@@ -91,14 +91,14 @@ const Hero = () => {
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ duration: 1.5, ease: "easeOut" }}
-                            className="mt-6 flex flex-wrap justify-center gap-4 text-base"
+                            className="mt-6 flex flex-wrap justify-center gap-3 text-base"
                         >
                             <a
                                 href="https://github.com/AlexandroTellez"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="GitHub"
-                                className="inline-flex items-center gap-2 rounded-lg bg-gray-500 px-5 py-2.5 font-medium text-white shadow-md transition hover:bg-gray-700"
+                                className="inline-flex items-center gap-2 rounded-lg bg-gray-500 px-5 py-2 font-medium text-white shadow-md transition hover:bg-gray-700"
                             >
                                 <FaGithub className="text-lg" />
                                 GitHub
@@ -108,7 +108,7 @@ const Hero = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="LinkedIn"
-                                className="inline-flex items-center gap-2 rounded-lg bg-blue-500 px-5 py-2.5 font-medium text-white shadow-md transition hover:bg-blue-600"
+                                className="inline-flex items-center gap-2 rounded-lg bg-blue-500 px-5 py-2 font-medium text-white shadow-md transition hover:bg-blue-600"
                             >
                                 <FaLinkedin className="text-lg" />
                                 LinkedIn
@@ -118,13 +118,22 @@ const Hero = () => {
                                 download
                                 rel="noopener noreferrer"
                                 aria-label="Download CV"
-                                className="inline-flex items-center gap-2 rounded-lg bg-purple-500 px-5 py-2.5 font-medium text-white shadow-md transition hover:bg-purple-600"
+                                className="inline-flex items-center gap-2 rounded-lg bg-purple-500 px-5 py-2 font-medium text-white shadow-md transition hover:bg-purple-600"
                             >
                                 <FaFileDownload className="text-lg" />
-                                My CV
+                                Tech Resume
+                            </a>
+                            <a
+                                href="/Cover-Letter-Alexandro-Tellez.pdf"
+                                download
+                                rel="noopener noreferrer"
+                                aria-label="Download Cover Letter"
+                                className="inline-flex items-center gap-2 rounded-lg bg-indigo-500 px-5 py-2 font-medium text-white shadow-md transition hover:bg-indigo-600"
+                            >
+                                <FaEnvelopeOpenText className="text-lg" />
+                                Cover Letter
                             </a>
                         </motion.div>
-
                     </div>
                 </div>
             </div>
