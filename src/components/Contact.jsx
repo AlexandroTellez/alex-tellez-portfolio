@@ -80,7 +80,7 @@ const Contact = () => {
                         <FaFileDownload />
                     </a>
                     <a
-                        href="/Cover-Letter-Alexandro-Tellez.pdf"
+                        href="/Cover-letter-Alexandro-Tellez.pdf"
                         download
                         rel="noopener noreferrer"
                         aria-label="Download Cover Letter"
