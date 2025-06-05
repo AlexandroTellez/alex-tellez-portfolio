@@ -11,19 +11,20 @@ export const HERO_CONTENT = "Software development is not just a job; it’s a pa
 export const ABOUT_TEXT = `I am a results-driven Junior Web Developer with experience in building dynamic web applications using React, Next.js, Angular, FastAPI, and Spring Boot. I have worked with databases such as MySQL, PostgreSQL, and MongoDB, as well as deploying applications using Docker and AWS. My goal is to create efficient, scalable, and reliable solutions that help businesses grow and improve user experiences. I am committed to delivering high-quality results and adding value to every project I work on.`;
 
 export const EXPERIENCES = [
-  {
-    year: "March 2025 - Present",
-    role: "Junior Web Developer Intern",
-    company: "Davara & Davara Asesores Jurídicos S.L.",
-    description: `Focused on building and maintaining frontend interfaces using React.js, Next.js, and Tailwind CSS, based on Figma designs. Participated in the initial configuration of the project environment and tooling. Contributed to the backend using FastAPI and MongoDB, implementing RESTful endpoints and assisting in API integration.`,
-    technologies: ["Python", "FastAPI", "MongoDB", "JavaScript", "React.js", "Next.js", "Tailwind CSS"],
-  },
+
   {
     year: "September 2024 - Present",
     role: "Web Developer",
     company: "Independent Projects",
     description: `Designed and built several full stack web applications as part of personal learning and development. Gained hands-on experience with modern frontend and backend frameworks, implementing responsive interfaces and robust APIs. These projects helped solidify my understanding of scalable architecture, deployment strategies, and effective state and data management.`,
     technologies: ["React", "Next.js", "Angular", "Spring Boot", "FastAPI", "REST APIs", "PostgreSQL", "MySQL", "MongoDB", "Docker"],
+  },
+  {
+    year: "March 2025 - Present",
+    role: "Junior Web Developer Intern",
+    company: "Davara & Davara Asesores Jurídicos S.L.",
+    description: `Focused on building and maintaining frontend interfaces using React.js, Next.js, and Tailwind CSS, based on Figma designs. Participated in the initial configuration of the project environment and tooling. Contributed to the backend using FastAPI and MongoDB, implementing RESTful endpoints and assisting in API integration.`,
+    technologies: ["Python", "FastAPI", "MongoDB", "JavaScript", "React.js", "Next.js", "Tailwind CSS"],
   },
   /*{
     year: "May 2021 - March 2022",
@@ -128,9 +129,9 @@ export const PROJECTS = [
     title: "Employee Management System",
     image: project3,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    githubUrl: "https://github.com/AlexandroTellez",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"]
+      "A full stack Employee Management System built with Angular and Spring Boot. It allows users to add, update, delete, and search employees, providing a responsive interface and persistent data storage in MySQL.",
+    githubUrl: "https://github.com/AlexandroTellez", // cambia si tienes un repo específico
+    technologies: ["Angular", "Spring Boot", "MySQL", "TypeScript", "Java"]
   },
   {
     title: "Social-Media Platform",
