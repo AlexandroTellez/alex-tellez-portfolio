@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:text-purple-400">
       {/* Background */}
-      <div className="fixed top-0 -z-10 h-full w-full bg-[#0a0a1a] overflow-hidden  backdrop-blur-sm">
+      <div className="fixed top-0 left-0 -z-10 h-[200%] w-full bg-[#0a0a1a] overflow-hidden backdrop-blur-sm">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900/20 via-transparent to-transparent">
         </div>
       </div>

@@ -1,5 +1,3 @@
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,4 +8,20 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0a0a1a;
+    color: #d4d4d8;
+    /* equivalente a text-neutral-300 */
+    overflow-x: hidden;
+}
+
+html,
+body,
+#root {
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }

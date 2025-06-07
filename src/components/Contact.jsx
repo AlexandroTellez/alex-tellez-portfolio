@@ -44,8 +44,8 @@ const Contact = () => {
                     </a>
                 </div>
             </motion.div>
-            <div className=" flex flex-row items-center justify-center p-10">
-                {/* Links */}
+            <div className="flex flex-col items-center justify-center p-10">
+                {/* Social Links */}
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -84,12 +84,18 @@ const Contact = () => {
                         download
                         rel="noopener noreferrer"
                         aria-label="Download Cover Letter"
-                        className=" text-indigo-500 hover:text-indigo-100 transition duration-300"
+                        className="text-indigo-500 hover:text-indigo-100 transition duration-300"
                     >
                         <FaEnvelopeOpenText />
                     </a>
                 </motion.div>
+
+                {/* Footer text */}
+                <p className="mt-6 text-sm text-center text-neutral-500">
+                    © {new Date().getFullYear()} Alex Tellez. All rights reserved.
+                </p>
             </div>
+
         </div>
     )
 }
