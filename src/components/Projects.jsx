@@ -33,11 +33,11 @@ const Projects = () => {
                             whileInView={{ opacity: 1, x: 0 }}
                             initial={{ opacity: 0, x: index % 2 !== 0 ? 100 : -100 }}
                             transition={{ duration: 1 }}
-                            className="w-full lg:w-1/3 flex justify-center lg:max-w-[300px]">
+                            className="w-full sm:max-w-[400px] md:max-w-[400px] lg:w-1/3 flex justify-center">
                             <img
                                 src={project.image}
                                 alt={project.title}
-                                className=" rounded-2xl object-cover max-w-full "
+                                className=" border border-purple-500/25 rounded-2xl object-cover max-w-full "
                             />
                         </motion.div>
 

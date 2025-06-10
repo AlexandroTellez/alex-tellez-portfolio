@@ -43,11 +43,13 @@ const About = () => {
                     transition={{ duration: 1 }}
                     className="w-full lg:w-1/2"
                 >
-                    <div className="flex justify-center lg:justify-start flex-col px-4">
+                    <div className="flex flex-col items-center text-left lg:items-start lg:text-left p-6 px-4">
                         <p className="my-2 max-w-xl py-2">
                             Hi, I’m Alex Tellez, a passionate and results-driven Junior
                             Full Stack Developer with hands-on experience in building dynamic
-                            and scalable web applications. I specialize in technologies like
+                            and scalable web applications. I hold a Higher National Degree
+                            (Grado Superior) in Web Application Development, which has provided me with a solid
+                            foundation in both frontend and backend technologies. I specialize in technologies like
                             React, Next.js, Angular, FastAPI, and Spring Boot. I have
                             developed proficiency in working with databases such as MySQL,
                             PostgreSQL, and MongoDB, and I’m comfortable with deployment
@@ -61,7 +63,7 @@ const About = () => {
                             experiences.
                         </p>
                         <p className="my-2 max-w-xl py-2">
-                            On my journey to becoming a full-stack developer, I focus on
+                            On my journey to becoming a full stack developer, I focus on
                             solving real-world problems through clean, optimized code. If you
                             want to see more of my work or connect, feel free to visit my{" "}
                             <a

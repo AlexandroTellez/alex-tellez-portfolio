@@ -91,7 +91,7 @@ const Contact = () => {
                 </motion.div>
 
                 {/* Footer text */}
-                <p className="mt-6 text-sm text-center text-neutral-500">
+                <p className="mt-6 text-sm text-center text-neutral-300">
                     © {new Date().getFullYear()} Alex Tellez. All rights reserved.
                 </p>
             </div>
