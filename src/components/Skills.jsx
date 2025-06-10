@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Skills = () => {
     return (
-        <section className="text-white max-w-6xl mx-auto px-4 py-10">
+        <section id="technical_skills" className="text-white max-w-6xl mx-auto px-4 py-10">
             <h2 className="text-3xl font-bold mb-10 text-center">
                 Technical <span className="text-blue-400">Skills</span>
             </h2>
@@ -31,7 +31,6 @@ const Skills = () => {
                     </motion.div>
                 ))}
             </div>
-
         </section>
     );
 };
