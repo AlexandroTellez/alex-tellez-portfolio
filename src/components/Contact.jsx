@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Contact = () => {
     return (
-        <div className="border-b border-neutral-900 pb-20">
+        <div className="border-b border-neutral-900 pb-20 w-full max-w-7xl mx-auto px-4 py-10">
             <motion.h2
                 initial={{ scale: 0.95, opacity: 0.9 }}
                 animate={{ scale: 1.2, opacity: 1 }}

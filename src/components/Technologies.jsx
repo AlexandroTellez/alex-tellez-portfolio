@@ -26,7 +26,7 @@ const iconVariants = (duration) => ({
 
 const Technologies = () => {
     return (
-        <div className="border-b border-neutral-800 pb-24">
+        <div className="border-b border-neutral-800 pb-24 w-full max-w-7xl mx-auto px-4">
             <motion.h2
                 initial={{ scale: 0.95, opacity: 0.9 }}
                 animate={{ scale: 1.2, opacity: 1 }}

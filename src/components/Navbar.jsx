@@ -2,10 +2,10 @@ import { useState } from "react";
 import logo from "../assets/Logo-white.png";
 
 const NAV_ITEMS = [
-    { label: "About Me", href: "#about_me", hoverColor: "hover:text-purple-400"},
+    { label: "About Me", href: "#about_me", hoverColor: "hover:text-purple-400" },
     { label: "Technical Skills", href: "#technical_skills", hoverColor: "hover:text-blue-400" },
-    { label: "Technologies", href: "#technologies", hoverColor: "hover:text-purple-400"},
-    { label: "Work Experience", href: "#work_experience", hoverColor: "hover:text-blue-400"},
+    { label: "Technologies", href: "#technologies", hoverColor: "hover:text-purple-400" },
+    { label: "Work Experience", href: "#work_experience", hoverColor: "hover:text-blue-400" },
     { label: "Feature Projects", href: "#feature_projects", hoverColor: "hover:text-purple-400" },
     { label: "Innovate with Me", href: "#innovate_with_me", hoverColor: "hover:text-blue-400 underline underline-offset-8 decoration-white " },
 ];
@@ -14,12 +14,12 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="mb-20 py-6 relative z-50">
+        <nav className="mb-20 py-6 relative z-50 ">
             <div className="flex flex-wrap items-center justify-between">
                 {/* Logo */}
                 <div className="flex items-center flex-shrink-0">
-                    <a href="/">
-                        <img src={logo} alt="logo" className="h-auto w-auto" />
+                    <a href="#top">
+                        <img src={logo} alt="logo" className="h-auto w-auto cursor-pointer" />
                     </a>
                 </div>
 

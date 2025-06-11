@@ -107,7 +107,7 @@ export const TECHNICAL_SKILLS = {
 
 export const PROJECTS = [
   {
-    title: "Developer Portfolio",
+    title: "Alex Tellez – Personal Developer Portfolio",
     image: project1,
     description:
       "Personal portfolio built with React, Tailwind CSS and Framer Motion — fast, responsive, and animated. Designed to highlight my projects and tech stack, and deployed on Vercel for seamless performance.",

@@ -19,9 +19,10 @@ const About = () => {
                 }}
                 className="my-20 text-center text-4xl shadow-2xl "
             >
-                About<span className="text-neutral-400"> Me</span>
+                <span className="text-neutral-400">About </span>Me
             </motion.h2>
-            <div className="flex flex-wrap">
+
+            <div className="flex flex-wrap mx-auto px-4">
                 <motion.div
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}
@@ -32,7 +33,7 @@ const About = () => {
                         <img
                             src={profilePic}
                             alt="Alex Tellez"
-                            className="rounded-2xl object-cover max-w-full"
+                            className="rounded-2xl object-cover max-w-full border border-gray-400/20"
                         />
                     </div>
                 </motion.div>
@@ -43,54 +44,41 @@ const About = () => {
                     transition={{ duration: 1 }}
                     className="w-full lg:w-1/2"
                 >
-                    <div className="flex flex-col items-center text-left lg:items-start lg:text-left p-6 px-4">
+                    <div className="flex flex-col items-center text-left lg:items-start lg:text-left p-3 px-2">
                         <p className="my-2 max-w-xl py-2">
-                            Hi, I’m Alex Tellez, a passionate and results-driven Junior
-                            Full Stack Developer with hands-on experience in building dynamic
-                            and scalable web applications. I hold a Higher National Degree
-                            (Grado Superior) in Web Application Development, which has provided me with a solid
-                            foundation in both frontend and backend technologies. I specialize in technologies like
-                            React, Next.js, Angular, FastAPI, and Spring Boot. I have
-                            developed proficiency in working with databases such as MySQL,
-                            PostgreSQL, and MongoDB, and I’m comfortable with deployment
-                            strategies using Docker, Render and Vercel.
+                            Hey, I'm <strong>Alex Tellez</strong>. I don’t just build web applications, I'm focused on crafting digital experiences that solve real-world problems. From frontend to backend, I’ve learned to bridge the gap between user needs and business goals.
                         </p>
                         <p className="my-2 max-w-xl py-2">
-                            I’m committed to creating efficient, maintainable, and
-                            user-centric solutions that not only meet but exceed business
-                            needs. I believe in continuous learning and strive to deliver
-                            high-quality code that drives business growth and enhances user
-                            experiences.
+                            I specialize in <strong>React</strong>, <strong>Angular</strong>, <strong>FastAPI</strong> and <strong>Spring Boot</strong>, with experience in databases like <strong>MongoDB</strong>, <strong>PostgreSQL</strong> and <strong>MySQL</strong>. My Higher National Degree in Web Application Development gave me the foundation, but real growth came through projects, curiosity, and constant learning.
                         </p>
                         <p className="my-2 max-w-xl py-2">
-                            On my journey to becoming a full stack developer, I focus on
-                            solving real-world problems through clean, optimized code. If you
-                            want to see more of my work or connect, feel free to visit my{" "}
+                            But beyond tech stacks, what really drives me is the thrill of creating and solving problems, seeing a feature come to life, collaborating on meaningful projects, and building things that matter.
+                        </p>
+                        <p className="my-2 max-w-xl py-2">
+                            I also bring a background in business, which helps me approach software not only as a technical solution but as a strategic tool. This perspective fuels my creativity and helps me design products that are not just functional but aligned with business impact and user value.
+                        </p>
+                        <p className="my-2 max-w-xl py-2">
+                            Explore my projects on{" "}
                             <a
                                 href="https://github.com/AlexandroTellez"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                aria-label="GitHub"
                                 className="text-purple-300 hover:text-blue-500"
                             >
                                 GitHub
                             </a>{" "}
-                            and{" "}
+                            or connect with me on{" "}
                             <a
                                 href="https://www.linkedin.com/in/alex-tellez-y/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                aria-label="LinkedIn"
                                 className="text-purple-300 hover:text-blue-500"
                             >
                                 LinkedIn
-                            </a>
-                            . Additionally, if you're interested in learning more about my experience, you can{" "}
+                            </a>. Curious to know more about me? Feel free to{" "}
                             <a
                                 href="/CV-Alexandro-Tellez.pdf"
                                 download
-                                rel="noopener noreferrer"
-                                aria-label="Download CV"
                                 className="text-purple-300 hover:text-blue-500"
                             >
                                 download my CV
@@ -99,18 +87,16 @@ const About = () => {
                             <a
                                 href="/Cover-letter-Alexandro-Tellez.pdf"
                                 download
-                                rel="noopener noreferrer"
-                                aria-label="Download Cover Letter"
                                 className="text-purple-300 hover:text-blue-500"
                             >
                                 cover letter
-                            </a>{" "}
-                            for a detailed overview of my skills and projects.
+                            </a>.
                         </p>
-
                     </div>
                 </motion.div>
             </div>
+
+
         </div>
     );
 };
