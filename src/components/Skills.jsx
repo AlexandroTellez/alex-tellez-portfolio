@@ -3,10 +3,23 @@ import { motion } from 'framer-motion';
 
 const Skills = () => {
     return (
-        <section id="technical_skills" className="text-white max-w-6xl mx-auto px-4 py-10">
-            <h2 className="text-3xl font-bold mb-10 text-center">
+        <section id="technical_skills" className="text-white w-full max-w-7xl mx-auto px-4 py-10">
+            <motion.h2
+                initial={{ scale: 0.95, opacity: 0.9 }}
+                animate={{ scale: 1.2, opacity: 1 }}
+                whileHover={{
+                    scale: 1.1,
+                    color: "#fff",
+                    boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)"
+                }}
+                transition={{
+                    default: { duration: 1.2, ease: "easeOut" },
+                    hover: { duration: 0.5 }
+                }}
+                className="my-20 text-center text-4xl shadow-2xl"
+            >
                 Technical <span className="text-blue-400">Skills</span>
-            </h2>
+            </motion.h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {TECHNICAL_SKILLS.sections.map(({ id, category, skills }, index) => (
                     <motion.div

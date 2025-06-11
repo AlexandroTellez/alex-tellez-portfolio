@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Projects = () => {
     return (
-        <div className="border-b border-neutral-900 pb-4">
+        <div className="border-b border-neutral-900 w-full max-w-7xl mx-auto px-4 py-10">
             <motion.h2
                 initial={{ scale: 0.95, opacity: 0.9 }}
                 animate={{ scale: 1.2, opacity: 1 }}
@@ -71,7 +71,7 @@ const Projects = () => {
                                         GitHub
                                     </a>
                                 )}
-                                {project.title === "TaskProX - Project & Task Manager" && project.liveUrl && (
+                                {project.liveUrl && (
                                     <a
                                         href={project.liveUrl}
                                         target="_blank"

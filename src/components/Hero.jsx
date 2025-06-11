@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <div className="border-b border-neutral-900 pb-4 lg:mb-35">
             <div className="flex flex-wrap justify-center">
-                <div className="w-full lg:w-1/2">
+                <div className="w-full max-w-7xl mx-auto">
                     <div className="flex flex-col items-center text-center">
 
                         {/* Name */}
