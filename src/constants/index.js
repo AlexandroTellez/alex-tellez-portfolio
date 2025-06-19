@@ -20,7 +20,7 @@ export const EXPERIENCES = [
     technologies: ["React", "Next.js", "Angular", "Spring Boot", "FastAPI", "REST APIs", "PostgreSQL", "MySQL", "MongoDB", "Docker"],
   },
   {
-    year: "March 2025 - Present",
+    year: "March 2025 - June 2025",
     role: "Junior Web Developer Intern",
     company: "Davara & Davara Asesores Jurídicos S.L.",
     description: `Focused on building and maintaining frontend interfaces using React.js, Next.js, and Tailwind CSS, based on Figma designs. Participated in the initial configuration of the project environment and tooling. Contributed to the backend using FastAPI and MongoDB, implementing RESTful endpoints and assisting in API integration.`,
@@ -124,15 +124,15 @@ export const PROJECTS = [
     liveUrl: "https://task-pro-x.vercel.app/login",
     technologies: ["FastAPI", "MongoDB", "React", "Tailwind CSS", "Ant Design", "Render", "Vercel"]
   },
-  /*
-  {
-    title: "Employee Management System",
-    image: project3,
-    description:
-      "A full stack Employee Management System built with Angular and Spring Boot. It allows users to add, update, delete, and search employees, providing a responsive interface and persistent data storage in MySQL.",
-    githubUrl: "https://github.com/AlexandroTellez", // cambia si tienes un repo específico
-    technologies: ["Angular", "Spring Boot", "MySQL", "TypeScript", "Java"]
-  },
+{
+  title: "AlteyaHR - Employee Management System",
+  image: project3,
+  description:
+    "A full stack and responsive web application for managing employee records. Built with Angular and Spring Boot, it allows users to add, update, delete, and search employees, with persistent data storage in MySQL. The project is currently in development and features a clean UI and modern design components.",
+  githubUrl: "https://github.com/AlexandroTellez/AlteyaHR",
+  technologies: ["Angular", "TypeScript", "Spring Boot", "MySQL","Render", "Vercel"]
+},
+    /*
   {
     title: "Social-Media Platform",
     image: project4,
