@@ -8,13 +8,13 @@ import project6 from "../assets/projects/project6.jpg";
 export const HERO_CONTENT = "Software development is not just a job; it’s a passion that drives innovation.";
 
 
-export const ABOUT_TEXT = `I am a results-driven Junior Web Developer with experience in building dynamic web applications using React, Next.js, Angular, FastAPI, and Spring Boot. I have worked with databases such as MySQL, PostgreSQL, and MongoDB, as well as deploying applications using Docker and AWS. My goal is to create efficient, scalable, and reliable solutions that help businesses grow and improve user experiences. I am committed to delivering high-quality results and adding value to every project I work on.`;
+export const ABOUT_TEXT = `I am a results-driven Full Stack Developer with experience in building dynamic web applications using React, Next.js, Angular, FastAPI, and Spring Boot. I have worked with databases such as MySQL, PostgreSQL, and MongoDB, as well as deploying applications using Docker and AWS. My goal is to create efficient, scalable, and reliable solutions that help businesses grow and improve user experiences. I am committed to delivering high-quality results and adding value to every project I work on.`;
 
 export const EXPERIENCES = [
 
   {
-    year: "September 2024 - Present",
-    role: "Web Developer",
+    year: "May 2021 - Present",
+    role: "Freelance Java Full Stack Developer | Web Applications & Scalable Solutions",
     company: "Independent Projects",
     description: `Designed and built several full stack web applications as part of personal learning and development. Gained hands-on experience with modern frontend and backend frameworks, implementing responsive interfaces and robust APIs. These projects helped solidify my understanding of scalable architecture, deployment strategies, and effective state and data management.`,
     technologies: ["React", "Next.js", "Angular", "Spring Boot", "FastAPI", "REST APIs", "PostgreSQL", "MySQL", "MongoDB", "Docker"],

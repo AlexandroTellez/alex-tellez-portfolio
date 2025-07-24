@@ -46,7 +46,7 @@ const Hero = () => {
                             bg-clip-text text-2xl sm:text-3xl lg:text-4xl tracking-tight text-transparent
                             shadow-xl"
                         >
-                            Junior Full Stack Developer
+                            Full Stack Developer
                         </motion.span>
                         {/* Specialisation - Technologies */}
                         {/* <motion.p
