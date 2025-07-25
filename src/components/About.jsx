@@ -49,7 +49,8 @@ const About = () => {
                             Hey, I'm <strong>Alex Tellez</strong>. I don’t just build web applications, I'm focused on crafting digital experiences that solve real-world problems. From frontend to backend, I’ve learned to bridge the gap between user needs and business goals.
                         </p>
                         <p className="my-2 max-w-xl py-2">
-                            I specialize in <strong>React</strong>, <strong>Angular</strong>, <strong>FastAPI</strong> and <strong>Spring Boot</strong>, with experience in databases like <strong>MongoDB</strong>, <strong>PostgreSQL</strong> and <strong>MySQL</strong>. My Higher National Degree in Web Application Development gave me the foundation, but real growth came through projects, curiosity, and constant learning.
+                            I specialize in <strong>Angular</strong>, <strong>React</strong> and <strong>Spring Boot,</strong> building full stack applications with strong UI and backend logic. I also have experience using <strong>FastAPI</strong> and
+                            databases like <strong>MongoDB</strong>, <strong>PostgreSQL</strong> and <strong>MySQL</strong>. My Higher National Degree in Web Application Development gave me the foundation, but real growth came through hands-on projects, curiosity, and continuous learning.
                         </p>
                         <p className="my-2 max-w-xl py-2">
                             But beyond tech stacks, what really drives me is the thrill of creating and solving problems, seeing a feature come to life, collaborating on meaningful projects, and building things that matter.

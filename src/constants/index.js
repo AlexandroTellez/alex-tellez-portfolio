@@ -13,7 +13,7 @@ export const ABOUT_TEXT = `I am a results-driven Full Stack Developer with exper
 export const EXPERIENCES = [
 
   {
-    year: "May 2021 - Present",
+    year: "October 2021 - Present",
     role: "Freelance Java Full Stack Developer | Web Applications & Scalable Solutions",
     company: "Independent Projects",
     description: `Designed and built several full stack web applications as part of personal learning and development. Gained hands-on experience with modern frontend and backend frameworks, implementing responsive interfaces and robust APIs. These projects helped solidify my understanding of scalable architecture, deployment strategies, and effective state and data management.`,
@@ -21,7 +21,7 @@ export const EXPERIENCES = [
   },
   {
     year: "March 2025 - June 2025",
-    role: "Junior Web Developer Intern",
+    role: "Full Stack Developer Intern",
     company: "Davara & Davara Asesores Jurídicos S.L.",
     description: `Focused on building and maintaining frontend interfaces using React.js, Next.js, and Tailwind CSS, based on Figma designs. Participated in the initial configuration of the project environment and tooling. Contributed to the backend using FastAPI and MongoDB, implementing RESTful endpoints and assisting in API integration.`,
     technologies: ["Python", "FastAPI", "MongoDB", "JavaScript", "React.js", "Next.js", "Tailwind CSS"],
