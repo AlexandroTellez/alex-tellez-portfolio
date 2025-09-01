@@ -167,7 +167,7 @@ export const PROJECTS = [
 
 
 export const CONTACT = {
-  address: "Méntrida, Toledo, Spain",
+  address: "Carabanchel Alto, Madrid (28044), Spain",
   phoneNo: "+34 603 16 36 56",
   email: "alextellezyanes@gmail.com",
 };
