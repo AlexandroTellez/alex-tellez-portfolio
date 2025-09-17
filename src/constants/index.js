@@ -19,7 +19,7 @@ export const EXPERIENCES = [
     technologies: ["React", "Next.js", "Tailwind CSS", "Ant Design", "TypeScript", "FastAPI", "JWT", "MongoDB", "Agile", "Git/GitHub"],
   },
   {
-    year: "July 2024 - October 2024",
+    year: "July 2024 - September 2024",
     role: "Java Full Stack Developer (Freelance)",
     company: "LiftEngine (Digital Marketing)",
     description: `Developed scalable applications supporting digital marketing campaigns. Built responsive UIs with Angular and TypeScript. Implemented RESTful APIs with Spring Boot integrated with MySQL, PostgreSQL, and MongoDB. Managed secure authentication with Spring Security and JWT. Deployed solutions with Docker and AWS (EC2, S3, CloudFront), ensuring scalability and global performance.`,
