@@ -137,6 +137,7 @@ export const PROJECTS = [
     liveUrl: "https://task-pro-x.vercel.app/login",
     technologies: ["FastAPI", "MongoDB", "React", "Tailwind CSS", "Ant Design", "Render", "Vercel"]
   },
+  /*
   {
     title: "AlteyaHR - Employee Management System",
     image: project3,
@@ -145,7 +146,7 @@ export const PROJECTS = [
     githubUrl: "https://github.com/AlexandroTellez/AlteyaHR",
     technologies: ["Angular", "TypeScript", "Spring Boot", "MySQL", "Render", "Vercel"]
   },
-  /*
+  
 {
   title: "Social-Media Platform",
   image: project4,
