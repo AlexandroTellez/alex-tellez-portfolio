@@ -1,9 +1,11 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
+import { RiTranslate } from "react-icons/ri";
 import logo from "../assets/Logo-white.png";
 
 const NAV_ITEMS = [
     { label: "About Me", href: "#about_me", hoverColor: "hover:text-purple-400" },
-    { label: "Academic Education", href: "#education", hoverColor: "hover:text-blue-400" },
+    { label: "Pathway", href: "#education", hoverColor: "hover:text-blue-400" },
     { label: "Technical Skills", href: "#technical_skills", hoverColor: "hover:text-purple-400" },
     { label: "Technologies", href: "#technologies", hoverColor: "hover:text-blue-400" },
     { label: "Work Experience", href: "#work_experience", hoverColor: "hover:text-purple-400" },
@@ -13,6 +15,14 @@ const NAV_ITEMS = [
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const { i18n } = useTranslation();
+    const isEnglish = i18n.language === "en";
+
+    const handleToggle = () => {
+        i18n.changeLanguage(isEnglish ? "es" : "en");
+    };
+
+    const buttonLabel = isEnglish ? "Spanish" : "Inglés";
 
     return (
         <nav className="mb-20 py-6 relative z-50 ">
@@ -35,6 +45,15 @@ const Navbar = () => {
                             {item.label}
                         </a>
                     ))}
+                    <button
+                        type="button"
+                        onClick={handleToggle}
+                        className="inline-flex items-center gap-1.5 rounded-md bg-neutral-600 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wide text-white transition hover:bg-neutral-500"
+                        aria-label={buttonLabel}
+                    >
+                        <RiTranslate aria-hidden="true" className="h-3.5 w-3.5" />
+                        <span>{buttonLabel}</span>
+                    </button>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -84,6 +103,18 @@ const Navbar = () => {
                             {item.label}
                         </a>
                     ))}
+                    <button
+                        type="button"
+                        onClick={() => {
+                            handleToggle();
+                            setIsOpen(false);
+                        }}
+                        className="inline-flex items-center gap-1.5 rounded-md bg-neutral-600 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wide text-white transition hover:bg-neutral-500"
+                        aria-label={buttonLabel}
+                    >
+                        <RiTranslate aria-hidden="true" className="h-3.5 w-3.5" />
+                        <span>{buttonLabel}</span>
+                    </button>
                 </div>
             )}
         </nav>

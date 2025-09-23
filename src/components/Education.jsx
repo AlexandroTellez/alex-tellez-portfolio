@@ -18,7 +18,7 @@ const Education = () => {
                 }}
                 className="my-20 text-center text-4xl shadow-2xl"
             >
-                Academic <span className="text-blue-400">Education</span>
+                <span className="text-blue-400">Path</span>way
             </motion.h2>
 
             <div className="mt-16 flex flex-col gap-12">
@@ -32,7 +32,7 @@ const Education = () => {
                             index % 2 === 0 ? "self-start" : "self-end"
                         } w-full max-w-3xl`}
                     >
-                        <span className="text-sm uppercase tracking-wider text-blue-200">{education.year}</span>
+                        <span className="text-sm tracking-wider text-blue-200">{education.year}</span>
                         <h6 className="text-xl font-semibold text-neutral-100">
                             {education.degree}
                         </h6>

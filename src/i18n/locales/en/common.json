@@ -1,0 +1,10 @@
+{
+  "demo": {
+    "title": "Welcome to Alex Tellez's portfolio",
+    "description": "Use the switch to change between English and Spanish.",
+    "cta": {
+      "toSpanish": "Switch to Spanish",
+      "toEnglish": "Switch to English"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "demo": {
+    "title": "Bienvenido al portafolio de Alex Tellez",
+    "description": "Usa el interruptor para cambiar entre ingles y espanol.",
+    "cta": {
+      "toSpanish": "Cambiar a espanol",
+      "toEnglish": "Cambiar a ingles"
+    }
+  }
+}
