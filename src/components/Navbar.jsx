@@ -3,11 +3,12 @@ import logo from "../assets/Logo-white.png";
 
 const NAV_ITEMS = [
     { label: "About Me", href: "#about_me", hoverColor: "hover:text-purple-400" },
-    { label: "Technical Skills", href: "#technical_skills", hoverColor: "hover:text-blue-400" },
-    { label: "Technologies", href: "#technologies", hoverColor: "hover:text-purple-400" },
-    { label: "Work Experience", href: "#work_experience", hoverColor: "hover:text-blue-400" },
-    { label: "Feature Projects", href: "#feature_projects", hoverColor: "hover:text-purple-400" },
-    { label: "Innovate with Me", href: "#innovate_with_me", hoverColor: "hover:text-blue-400 underline underline-offset-8 decoration-white " },
+    { label: "Academic Education", href: "#education", hoverColor: "hover:text-blue-400" },
+    { label: "Technical Skills", href: "#technical_skills", hoverColor: "hover:text-purple-400" },
+    { label: "Technologies", href: "#technologies", hoverColor: "hover:text-blue-400" },
+    { label: "Work Experience", href: "#work_experience", hoverColor: "hover:text-purple-400" },
+    { label: "Feature Projects", href: "#feature_projects", hoverColor: "hover:text-blue-400" },
+    { label: "Innovate with Me", href: "#innovate_with_me", hoverColor: "hover:text-purple-400 underline underline-offset-8 decoration-white " },
 ];
 
 const Navbar = () => {

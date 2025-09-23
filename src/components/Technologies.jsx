@@ -41,7 +41,7 @@ const Technologies = () => {
                 }}
                 className="my-20 text-center text-4xl shadow-2xl"
             >
-                <span className="text-purple-400">Tech</span>nologies
+                <span className="text-blue-400">Tech</span>nologies
             </motion.h2>
             <motion.div
                 whileInView={{ opacity: 1, x: 0 }}

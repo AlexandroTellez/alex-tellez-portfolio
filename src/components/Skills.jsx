@@ -18,7 +18,7 @@ const Skills = () => {
                 }}
                 className="my-20 text-center text-4xl shadow-2xl"
             >
-                Technical <span className="text-blue-400">Skills</span>
+                Technical <span className="text-purple-400">Skills</span>
             </motion.h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {TECHNICAL_SKILLS.sections.map(({ id, category, skills }, index) => (
@@ -28,14 +28,14 @@ const Skills = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5 + index * 0.1, ease: 'easeOut' }}
                         viewport={{ once: true }}
-                        className="bg-white/5 backdrop-blur-sm border border-blue-400/20 rounded-2xl shadow-lg p-6 transition-transform duration-300 hover:scale-[1.03] hover:shadow-blue-400/30"
+                        className="bg-white/5 backdrop-blur-sm border border-purple-400/20 rounded-2xl shadow-lg p-6 transition-transform duration-300 hover:scale-[1.03] hover:shadow-purple-400/30"
                     >
-                        <h3 className="text-lg font-semibold mb-4 text-blue-300">{category}</h3>
+                        <h3 className="text-lg font-semibold mb-4 text-white">{category}</h3>
                         <div className="flex flex-wrap gap-2">
                             {skills.map((skill) => (
                                 <span
                                     key={skill}
-                                    className="bg-blue-400/10 text-sm text-blue-200 px-3 py-1 rounded-full border border-blue-300/20 hover:bg-blue-400/20 transition"
+                                    className="bg-purple-400/10 text-sm text-white px-3 py-1 rounded-full border border-purple-300/20 hover:bg-purple-400/20 transition"
                                 >
                                     {skill}
                                 </span>

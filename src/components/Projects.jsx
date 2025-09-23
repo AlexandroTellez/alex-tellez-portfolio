@@ -19,7 +19,7 @@ const Projects = () => {
                 }}
                 className="my-20 text-center text-4xl shadow-2xl"
             >
-                <span className="text-purple-400">Feature</span> Projects
+                <span className="text-blue-400">Feature</span> Projects
             </motion.h2>
             <div>
                 {PROJECTS.map((project, index) => (
@@ -37,7 +37,7 @@ const Projects = () => {
                             <img
                                 src={project.image}
                                 alt={project.title}
-                                className=" border border-purple-500/25 rounded-2xl object-cover max-w-full "
+                                className=" border border-blue-500/25 rounded-2xl object-cover max-w-full "
                             />
                         </motion.div>
 
@@ -53,7 +53,7 @@ const Projects = () => {
                                 {project.technologies.map((tech, index) => (
                                     <span
                                         key={index}
-                                        className="rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-400 whitespace-nowrap"
+                                        className="rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-blue-400 whitespace-nowrap"
                                     >
                                         {tech}
                                     </span>

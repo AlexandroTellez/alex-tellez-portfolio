@@ -47,6 +47,78 @@ export const EXPERIENCES = [
     technologies: ["React", "Spring Boot", "MySQL", "REST APIs", "Responsive Web Design", "Git", "GitHub"],
   },
 ];
+export const EDUCATION = [
+
+  {
+    year: "2025 (Current)",
+    degree: "Aptis ESOL — Overall B2 (CEFR)",
+    institution: "British Council",
+    description:
+      "English proficiency certification demonstrating professional working proficiency for technical contexts and meetings.",
+    highlights: [
+      "Top-scoring skill among core areas: Listening — C1 (42/50)",
+      "Final Scale Score: 157 (Overall B2)",
+      "Test date: 28/03/2025 — Madrid"
+    ],
+  },
+  {
+    year: "2023 – 2025",
+    degree: "Higher Technician in Web Application Development (DAW)",
+    institution: "Cesur Formación (Madrid, Spain)",
+    description:
+      "Two-year vocational programme focused on frontend, backend, and databases, delivered online with hands-on, project-based learning.",
+    highlights: [
+      "Client- and server-side development (JavaScript, HTML5/CSS3, web standards; backend fundamentals)",
+      "Databases & data modeling (SQL and NoSQL); REST APIs & web services",
+      "UI design, accessibility, deployment basics (DevOps/CI-CD) and version control with Git",
+      "Capstone & internship (FCT). Personal project: TaskProX (FastAPI, React, MongoDB, JWT)"
+    ],
+  },
+  {
+    year: "2023",
+    degree: "JavaScript (ES9), HTML5, CSS3 & Node.js — From Scratch",
+    institution: "Udemy",
+    description:
+      "Modern web development foundations across frontend (JavaScript, HTML, CSS) and backend (Node.js/Express) with hands-on projects.",
+    highlights: [
+      "Modern JavaScript (ES6–ES9): let/const, arrow functions, destructuring, modules, promises & async/await",
+      "DOM manipulation, events, forms; working with JSON and basic API consumption (fetch)",
+      "Responsive layouts with Flexbox & CSS Grid; reusable utilities/components",
+      "Node.js & Express fundamentals: routing, middleware, and RESTful APIs",
+      "Project-based learning: building end-to-end mini-apps from UI to simple backend"
+    ],
+  },
+  {
+    year: "2023",
+    degree: "Foundations: Data, Data, Everywhere (Google Data Analytics)",
+    institution: "Coursera",
+    description:
+      "Fundamentals of data analytics: role of the analyst, data ecosystem, analytical thinking and data-driven decision making.",
+    highlights: [
+      "Data lifecycle vs. analysis process (Ask, Prepare, Process, Analyze, Share, Act).",
+      "Formulation of SMART questions and definition of metrics/KPIs.",
+      "Data ethics, privacy and bias.",
+      "Data types and formats; data quality control.",
+      "Overview of tools: spreadsheets, SQL, R and Tableau (introductory level).",
+    ],
+  },
+  {
+    year: "2023",
+    degree: "Power BI: Data Analysis and Business Intelligence",
+    institution: "Udemy",
+    description:
+      "Data extraction and transformation (Power Query), star-schema modeling, DAX for metrics, and professional dashboard/report design with publishing to Power BI Service.",
+    highlights: [
+      "Connect to multiple sources and perform ETL with Power Query (Merge/Append, custom columns).",
+      "Data modeling and relationships; best practices (Star Schema).",
+      "Essential and advanced DAX: CALCULATE, FILTER, SUMX, variables; row and filter context.",
+      "Time intelligence: YTD, MTD, YoY and period comparisons.",
+      "Effective visualizations: drill-down/through, tooltips, bookmarks, slicers.",
+      "Publishing and sharing in Power BI Service; Row-Level Security (RLS) and scheduled refresh."
+    ],
+  },
+];
+
 
 export const TECHNICAL_SKILLS = {
   title: "Technical Skills",
@@ -109,13 +181,13 @@ export const TECHNICAL_SKILLS = {
   ],
 };
 
-{/*
+/*
       {
       id: "cloud",
       category: "Cloud & Services",
       skills: [ "MongoDB Atlas"],
     },
-  */}
+  */
 
 
 export const PROJECTS = [
@@ -172,3 +244,7 @@ export const CONTACT = {
   phoneNo: "+34 603 16 36 56",
   email: "alextellezyanes@gmail.com",
 };
+
+
+
+
