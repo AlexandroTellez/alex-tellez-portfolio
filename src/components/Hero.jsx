@@ -108,7 +108,7 @@ const Hero = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="LinkedIn"
-                                className="inline-flex items-center gap-2 rounded-lg bg-blue-500 px-5 py-2 font-medium text-white shadow-md transition hover:bg-blue-600"
+                                className="inline-flex items-center gap-2 rounded-lg bg-blue-500 px-5 py-2 font-medium text-white shadow-md transition hover:bg-blue-700"
                             >
                                 <FaLinkedin className="text-lg" />
                                 LinkedIn
@@ -118,7 +118,7 @@ const Hero = () => {
                                 download
                                 rel="noopener noreferrer"
                                 aria-label="Download CV"
-                                className="inline-flex items-center gap-2 rounded-lg bg-purple-500 px-5 py-2 font-medium text-white shadow-md transition hover:bg-purple-600"
+                                className="inline-flex items-center gap-2 rounded-lg bg-purple-500 px-5 py-2 font-medium text-white shadow-md transition hover:bg-purple-700"
                             >
                                 <FaFileDownload className="text-lg" />
                                 Tech Resume
@@ -128,7 +128,7 @@ const Hero = () => {
                                 download
                                 rel="noopener noreferrer"
                                 aria-label="Download Cover Letter"
-                                className="inline-flex items-center gap-2 rounded-lg bg-indigo-500 px-5 py-2 font-medium text-white shadow-md transition hover:bg-indigo-600"
+                                className="inline-flex items-center gap-2 rounded-lg bg-indigo-500 px-5 py-2 font-medium text-white shadow-md transition hover:bg-indigo-700"
                             >
                                 <FaEnvelopeOpenText className="text-lg" />
                                 Cover Letter
