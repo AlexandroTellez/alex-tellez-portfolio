@@ -41,7 +41,7 @@ const Contact = () => {
                 Innovate with<span className="text-neutral-400"> Me</span>
             </motion.h2>
 
-
+            {/* Contact Form */}
             <motion.div
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -52,7 +52,7 @@ const Contact = () => {
                     <div className="text-center">
                         <div className="flex items-center justify-center gap-2">
                             <FaEnvelope className="text-3xl text-neutral-100" />
-                            <h3 className="text-2xl font-semibold text-neutral-100">Let's work together!</h3>
+                            <h3 className="text-2xl font-semibold text-neutral-100">Let's Work Together!</h3>
                         </div>
                         <p className="mt-2 text-neutral-300 text-sm">
                             Share your idea or project and I will get back to you as soon as possible.
@@ -93,7 +93,7 @@ const Contact = () => {
                 </form>
             </motion.div>
 
-            {/* Contact Details + Form */}
+            {/* Contact Details */}
             <div className="mt-16 flex flex-col gap-12 lg:flex-row lg:items-start">
                 <motion.div
                     whileInView={{ opacity: 1, y: 0 }}
