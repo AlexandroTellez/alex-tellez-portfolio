@@ -7,30 +7,15 @@ import project6 from "../assets/projects/project6.jpg";
 
 export const HERO_CONTENT = "Software development is not just a job; it’s a passion that drives innovation.";
 
-
-export const ABOUT_TEXT = `I am a results-driven Full Stack Developer with experience in building dynamic web applications using React, Next.js, Angular, FastAPI, and Spring Boot. I have worked with databases such as MySQL, PostgreSQL, and MongoDB, as well as deploying applications using Docker and AWS. My goal is to create efficient, scalable, and reliable solutions that help businesses grow and improve user experiences. I am committed to delivering high-quality results and adding value to every project I work on.`;
+export const ABOUT_TEXT = `I am a results-driven Python Engineer with experience in building dynamic web applications using React, Next.js, Angular, FastAPI, and Spring Boot. I have worked with databases such as MySQL, PostgreSQL, and MongoDB, as well as deploying applications using Docker and AWS. My goal is to create efficient, scalable, and reliable solutions that help businesses grow and improve user experiences. I am committed to delivering high-quality results and adding value to every project I work on.`;
 
 export const EXPERIENCES = [
   {
-    year: "March 2025 - July 2025",
-    role: "Full Stack Developer",
+    year: "March 2025 - June 2025",
+    role: "Python Engineer",
     company: "Davara & Davara Asesores Jurídicos S.L. (LegalTech)",
-    description: `Contributed to web applications focused on document management and GDPR/LOPDGDD compliance. Built responsive interfaces with React, Next.js, Tailwind CSS and Ant Design. Implemented authentication and access control with FastAPI and JWT. Designed reusable components and scalable structures, collaborating on endpoints and data models with MongoDB under agile workflows.`,
-    technologies: ["React", "Next.js", "Tailwind CSS", "Ant Design", "TypeScript", "FastAPI", "JWT", "MongoDB", "Agile", "Git/GitHub"],
-  },
-  {
-    year: "July 2024 - September 2024",
-    role: "Java Full Stack Developer (Freelance)",
-    company: "LiftEngine (Digital Marketing)",
-    description: `Developed scalable applications supporting digital marketing campaigns. Built responsive UIs with Angular and TypeScript. Implemented RESTful APIs with Spring Boot integrated with MySQL, PostgreSQL, and MongoDB. Managed secure authentication with Spring Security and JWT. Deployed solutions with Docker and AWS (EC2, S3, CloudFront), ensuring scalability and global performance.`,
-    technologies: ["Angular", "TypeScript", "Spring Boot", "Spring Security", "JWT", "MySQL", "PostgreSQL", "MongoDB", "Docker", "AWS (EC2, S3, CloudFront)"],
-  },
-  {
-    year: "September 2023 - June 2024",
-    role: "Java Full Stack Developer (Freelance)",
-    company: "Private Clients",
-    description: `Delivered portfolio websites and a barbershop booking app. Created responsive UIs with Angular, React, TypeScript, Tailwind CSS and Vite. Implemented authentication with Spring Security and JWT. Developed scalable backends with Spring Boot, PostgreSQL and MongoDB. Deployed with Docker, Vercel and Render. Collaborated using GitHub/GitLab and agile practices.`,
-    technologies: ["Angular", "React", "TypeScript", "Tailwind CSS", "Vite", "Spring Boot", "FastAPI", "PostgreSQL", "MongoDB", "Spring Security", "JWT", "Docker", "Vercel", "Render", "GitHub", "GitLab"],
+    description: `Contributed to LegalTech solutions for document management and GDPR/LOPDGDD compliance. Developed multi-agent RAG pipelines, authentication with FastAPI and JWT, and scalable backend architectures under DDD. Integrated Generative AI (LangGraph, OpenAI) and NLP (BERT, ADA) with MLOps practices (MLflow, Pytest) and AWS deployments.`,
+    technologies: ["Python", "FastAPI", "JWT", "MongoDB", "LangGraph", "OpenAI (Azure)", "BERT", "ADA embeddings", "MLflow", "Pytest", "AWS (Lambda, AppRunner, S3, CloudFormation)", "Docker", "Podman", "Agile", "Git/BitBucket", "SonarQube"],
   },
   {
     year: "March 2022 - February 2025",
@@ -40,11 +25,18 @@ export const EXPERIENCES = [
     technologies: ["Power BI", "Excel (Advanced)", "Power Query", "Data Analysis", "Process Automation"],
   },
   {
+    year: "September 2023 - June 2024",
+    role: "Python Engineer (Freelance)",
+    company: "Private Clients",
+    description: `Delivered scalable Python solutions for private clients, including an AI-powered document analyzer, a task management API, and an NLP chatbot for legal queries. Focused on FastAPI backends, secure authentication, AI/NLP integrations, and cloud-ready deployments.`,
+    technologies: ["Python", "FastAPI", "JWT", "PostgreSQL", "MySQL", "MongoDB", "DynamoDB", "OpenSearch", "LangGraph", "OpenAI (Azure)", "BERT", "ADA embeddings", "MLflow", "Pytest", "AWS (Lambda, AppRunner, S3, CloudFormation, CloudWatch, CloudTrail)", "Docker", "Podman", "Docker Compose", "Git/BitBucket", "SonarQube", "Agile"],
+  },
+  {
     year: "October 2021 - March 2022",
-    role: "Java Full Stack Developer (Freelance)",
+    role: "Python Engineer (Freelance)",
     company: "Institute Dental Espinassi",
-    description: `Developed SPAs with React to support marketing and lead generation. Built responsive landing pages optimized for conversion. Implemented REST APIs with Spring Boot and MySQL, applying secure data handling practices. Collaborated directly with the clinic to deliver targeted digital solutions that improved client acquisition.`,
-    technologies: ["React", "Spring Boot", "MySQL", "REST APIs", "Responsive Web Design", "Git", "GitHub"],
+    description: `Developed RESTful APIs with FastAPI and JWT for client data management using MySQL. Built responsive landing pages with React to support marketing campaigns and lead capture. Ensured secure handling and centralized storage of patient records under GDPR compliance.`,
+    technologies: ["Python", "FastAPI", "JWT", "MySQL", "React", "Docker", "REST APIs", "Agile", "Git/GitHub"],
   },
 ];
 export const EDUCATION = [
@@ -124,62 +116,87 @@ export const TECHNICAL_SKILLS = {
   title: "Technical Skills",
   sections: [
     {
-      id: "frontend",
-      category: "Frontend",
-      skills: [
-        "React",
-        "Next.js",
-        "Angular",
-        "TailwindCSS",
-        "Ant Design",
-        "Framer Motion",
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
+      id: "programming",
+      category: "Programming Languages",
+      skills: ["Python", "FastAPI", "SQL", "Bash"],
     },
     {
       id: "backend",
-      category: "Backend",
+      category: "Backend / APIs",
       skills: [
         "FastAPI",
-        "Python",
-        "Java",
-        "Spring Boot",
+        "REST APIs",
         "JWT",
-        "REST APIs"
+        "Domain-Driven Design (DDD)"
       ],
     },
     {
       id: "databases",
       category: "Databases",
-      skills: ["MongoDB", "MySQL", "PostgreSQL", "MongoDB Atlas"],
-    },
-    {
-      id: "tools",
-      category: "Tools",
       skills: [
-        "Git",
-        "GitHub",
-        "Visual Studio Code",
-        "IntelliJ",
-        "Figma",
-        "TurboRepo",
-        "MongoDB Compass"
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "DynamoDB",
+        "RDS",
+        "OpenSearch (Vector DB)"
       ],
     },
     {
-      id: "deployment",
-      category: "Deployment",
-      skills: ["Docker", "Vercel", "Render"],
+      id: "ai-mlops",
+      category: "AI / NLP / MLOps",
+      skills: [
+        "Generative AI",
+        "LangGraph",
+        "OpenAI models (Azure)",
+        "NLP (BERT, ADA embeddings)",
+        "MLflow",
+        "MLOps lifecycle",
+        "Pytest (unit testing)"
+      ],
+    },
+    {
+      id: "cloud-deployment",
+      category: "Cloud & Deployment",
+      skills: [
+        "AWS (Lambda, AppRunner, S3, CloudFormation, CloudWatch, CloudTrail)",
+        "Docker",
+        "Podman",
+        "Docker Compose",
+        "Localstack"
+      ],
+    },
+    {
+      id: "tools-platforms",
+      category: "Tools & Platforms",
+      skills: [
+        "Git",
+        "BitBucket",
+        "Pre-commit",
+        "Git best practices",
+        "SonarQube",
+        "VS Code"
+      ],
+    },
+    {
+      id: "good-practices",
+      category: "Good Practices",
+      skills: ["PEP8", "Clean Code", "Scalable architectures"],
     },
     {
       id: "languages",
       category: "Languages",
-      skills: ["Spanish (native)", "English (B2 certificate)"],
+      skills: ["Spanish (Native)", "English (B2 Certificate)"],
     },
+    {
+      id: "pluses",
+      category: "Pluses",
+      skills: ["Bedrock", "SageMaker", "LangGraph", "LangFuse", "Kubernetes"],
+    },
+
   ],
 };
+
 
 /*
       {
@@ -195,19 +212,19 @@ export const PROJECTS = [
     title: "Alex Tellez – Personal Developer Portfolio",
     image: project1,
     description:
-      "Personal portfolio built with React, Tailwind CSS and Framer Motion — fast, responsive, and animated. Designed to highlight my projects and tech stack, and deployed on Vercel for seamless performance.",
+      "Personal portfolio built with React and TailwindCSS, integrated with a FastAPI + PostgreSQL backend. Features a dynamic blog system and an AI-powered search bar using OpenAI embeddings. Deployed with Docker and AWS AppRunner for scalability.",
     githubUrl: "https://github.com/AlexandroTellez/alex-tellez-portfolio",
     liveUrl: "https://alextellezy.com",
-    technologies: ["React", "Tailwind CSS", "Framer Motion", "Vite", "Vercel"]
+    technologies: ["React", "TailwindCSS", "FastAPI", "PostgreSQL", "OpenAI embeddings", "Docker", "AWS AppRunner"]
   },
   {
     title: "TaskProX - Project & Task Manager",
     image: project2,
     description:
-      "A complete and responsive web application for managing tasks and collaborative projects. Includes user authentication with JWT, role-based permissions, calendar view, Kanban board, file attachments, and dark/light mode support.",
+      "Complete and responsive web application for collaborative project and task management. Features JWT authentication, role-based permissions, calendar view, Kanban board, file upload, dark/light mode, and an AI-powered chatbot built with LangGraph + OpenAI on Azure.",
     githubUrl: "https://github.com/AlexandroTellez/TaskProX",
     liveUrl: "https://task-pro-x.vercel.app/login",
-    technologies: ["FastAPI", "MongoDB", "React", "Tailwind CSS", "Ant Design", "Render", "Vercel"]
+    technologies: ["FastAPI", "MongoDB", "React", "TailwindCSS", "Ant Design", "LangGraph", "OpenAI (Azure)", "Docker", "AWS"]
   },
   /*
   {
