@@ -13,7 +13,7 @@ export const ABOUT_TEXT = `I am a results-driven Full Stack Developer with exper
 export const EXPERIENCES = [
   {
     year: "March 2025 - July 2025",
-    role: "Java Full Stack Developer",
+    role: "Full Stack Developer",
     company: "Davara & Davara Asesores Jurídicos S.L. (LegalTech)",
     description: `Contributed to web applications focused on document management and GDPR/LOPDGDD compliance. Built responsive interfaces with React, Next.js, Tailwind CSS and Ant Design. Implemented authentication and access control with FastAPI and JWT. Designed reusable components and scalable structures, collaborating on endpoints and data models with MongoDB under agile workflows.`,
     technologies: ["React", "Next.js", "Tailwind CSS", "Ant Design", "TypeScript", "FastAPI", "JWT", "MongoDB", "Agile", "Git/GitHub"],
@@ -240,7 +240,7 @@ export const PROJECTS = [
 
 
 export const CONTACT = {
-  address: "Carabanchel Alto, Madrid, Spain",
+  address: "Madrid, Spain",
   phoneNo: "+34 603 16 36 56",
   email: "alextellezyanes@gmail.com",
 };
