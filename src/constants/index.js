@@ -29,7 +29,7 @@ export const EXPERIENCES = [
     role: "Python Engineer (Freelance)",
     company: "Private Clients",
     description: `Delivered scalable Python solutions for private clients, including an AI-powered document analyzer, a task management API, and an NLP chatbot. Focused on FastAPI backends, secure authentication, AI/NLP integrations, and cloud-ready deployments with Docker, Render and Vercel.`,
-    technologies: ["Python", "FastAPI", "JWT", "PostgreSQL", "MySQL", "MongoDB", "DynamoDB", "OpenSearch", "LangGraph", "OpenAI (Azure)", "BERT", "ADA embeddings", "MLflow", "Pytest", "Docker", "Render", "Vercel", "Git/BitBucket", "SonarQube", "Agile"],
+    technologies: ["Python", "FastAPI", "JWT", "PostgreSQL", "MySQL", "MongoDB", "Milvus", "LangGraph", "OpenAI (Azure)", "BERT", "ADA embeddings", "MLflow", "Pytest", "Docker", "Render", "Vercel", "Git/BitBucket", "SonarQube", "Agile"],
   },
   {
     year: "October 2021 - March 2022",
@@ -134,9 +134,7 @@ export const TECHNICAL_SKILLS = {
         "PostgreSQL",
         "MySQL",
         "MongoDB",
-        "DynamoDB",
-        "RDS",
-        "OpenSearch (Vector DB)"
+        "Milvus",
       ],
     },
     {
