@@ -1,7 +1,20 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { SiPython, SiFastapi, SiMysql, SiMongodb, SiOpensearch, SiAmazondynamodb, SiGit, SiGnubash, SiOpenai, SiMlflow, SiKubernetes } from "react-icons/si";
+import {
+    SiPython,
+    SiFastapi,
+    SiMysql,
+    SiMongodb,
+    SiOpensearch,
+    SiAmazondynamodb,
+    SiGit,
+    SiGnubash,
+    SiOpenai,
+    SiMlflow,
+    SiBitbucket,
+    SiVercel,
+} from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { FaDocker, FaAws } from "react-icons/fa";
+import { FaDocker } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -74,7 +87,7 @@ const Technologies = () => {
                     <SiMongodb className="text-7xl text-[#47A248]" />
                 </motion.div>
 
-                {/* OpenSearch (Vector DB) */}
+                {/* OpenSearch */}
                 <motion.div variants={iconVariants(3.6)} initial="initial" animate="animate" className="rounded-full border-4 border-[#005EB8] p-4">
                     <SiOpensearch className="text-7xl text-[#005EB8]" />
                 </motion.div>
@@ -99,14 +112,14 @@ const Technologies = () => {
                     <FaDocker className="text-7xl text-[#2496ED]" />
                 </motion.div>
 
-                {/* AWS */}
-                <motion.div variants={iconVariants(3.2)} initial="initial" animate="animate" className="rounded-full border-4 border-[#FF9900] p-4">
-                    <FaAws className="text-7xl text-[#FF9900]" />
-                </motion.div>
-
                 {/* Git */}
                 <motion.div variants={iconVariants(3.9)} initial="initial" animate="animate" className="rounded-full border-4 border-[#F05032] p-4">
                     <SiGit className="text-7xl text-[#F05032]" />
+                </motion.div>
+
+                {/* BitBucket */}
+                <motion.div variants={iconVariants(3.4)} initial="initial" animate="animate" className="rounded-full border-4 border-[#205081] p-4">
+                    <SiBitbucket className="text-7xl text-[#205081]" />
                 </motion.div>
 
                 {/* Bash */}
@@ -114,9 +127,9 @@ const Technologies = () => {
                     <SiGnubash className="text-7xl text-[#4EAA25]" />
                 </motion.div>
 
-                {/* Kubernetes */}
-                <motion.div variants={iconVariants(4.3)} initial="initial" animate="animate" className="rounded-full border-4 border-[#326CE5] p-4">
-                    <SiKubernetes className="text-7xl text-[#326CE5]" />
+                {/* Vercel */}
+                <motion.div variants={iconVariants(3.6)} initial="initial" animate="animate" className="rounded-full border-4 border-[#ffffff] p-4">
+                    <SiVercel className="text-7xl text-[#ffffff]" />
                 </motion.div>
 
             </motion.div>

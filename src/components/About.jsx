@@ -46,19 +46,23 @@ const About = () => {
                 >
                     <div className="flex flex-col items-center text-left lg:items-start lg:text-left p-3 px-2">
                         <p className="my-2 max-w-xl py-2">
-                            Hey, I'm <strong>Alex Tellez</strong>. I’m a <strong>Python Engineer</strong> focused on building secure, scalable backends and AI-powered features that solve real problems. I bridge engineering with product impact—turning ideas into production-ready services.
+                            Hey, I'm <strong>Alex Tellez</strong>. I’m a <strong>Python Engineer</strong> with professional experience in <strong>LegalTech, healthcare, and freelance projects</strong>. I focus on building scalable backends, AI-driven systems, and digital solutions that connect technical depth with real business impact.
                         </p>
 
                         <p className="my-2 max-w-xl py-2">
-                            I specialize in <strong>Python</strong> and <strong>FastAPI</strong>, designing <strong>REST APIs</strong> with <strong>JWT</strong> and <strong>Domain-Driven Design (DDD)</strong>. I work with <strong>PostgreSQL</strong>, <strong>MySQL</strong>, <strong>MongoDB</strong>, <strong>DynamoDB</strong> and <strong>OpenSearch</strong> (vector DB) to deliver robust data layers and search.
+                            At <strong>Davara & Davara</strong>, I worked on LegalTech platforms, developing <strong>FastAPI</strong> services with <strong>JWT</strong> authentication and integrating <strong>LangGraph</strong> and <strong>OpenAI models</strong> for document workflows. For private clients, I delivered solutions such as an <strong>AI-powered document analyzer</strong>, a <strong>task management API</strong>, and an <strong>NLP chatbot</strong>, applying <strong>DDD</strong>, relational and NoSQL databases, and modern MLOps with <strong>MLflow</strong> and <strong>Pytest</strong>.
                         </p>
 
                         <p className="my-2 max-w-xl py-2">
-                            In AI, I build LLM/NLP pipelines using <strong>LangGraph</strong>, <strong>OpenAI embeddings (ADA)</strong> and <strong>BERT</strong>, including RAG systems for document Q&amp;A. I follow modern <strong>MLOps</strong> practices with <strong>MLflow</strong> for model versioning and <strong>Pytest</strong> for reliable testing.
+                            In healthcare, I collaborated with <strong>Institute Dental Espinassi</strong> to design APIs and landing systems that centralized patient records and supported marketing campaigns using <strong>FastAPI</strong>, <strong>MySQL</strong>, <strong>React</strong> and <strong>Docker</strong>.
                         </p>
 
                         <p className="my-2 max-w-xl py-2">
-                            For deployment, I use <strong>AWS</strong> (Lambda, AppRunner, S3, CloudFormation, CloudWatch/CloudTrail) and containerization with <strong>Docker/Podman</strong> and <strong>Docker Compose</strong>. I care about clean code and quality: <strong>PEP8</strong>, <strong>pre-commit</strong>, Git best practices and <strong>SonarQube</strong>.
+                            My academic background includes a <strong>Higher Technician in Web Application Development (DAW)</strong> at Cesur Formación, where I built <strong>TaskProX</strong> (FastAPI, React, MongoDB, JWT) as a capstone project. I also hold a <strong>B2 Aptis ESOL certification</strong> (C1 in listening) and have completed technical training in <strong>JavaScript/Node.js</strong>, <strong>Google Data Analytics</strong>, and <strong>Power BI</strong>.
+                        </p>
+
+                        <p className="my-2 max-w-xl py-2">
+                            Beyond client work and studies, I’ve built personal projects such as my <strong>Developer Portfolio</strong>, <strong>TaskProX</strong>, and an <strong>AI Document Analyzer</strong>, integrating <strong>FastAPI</strong>, <strong>React</strong>, <strong>PostgreSQL</strong>, <strong>MongoDB</strong>, <strong>OpenSearch</strong>, and deployment on <strong>Render</strong> and <strong>Vercel</strong>.
                         </p>
 
                         <p className="my-2 max-w-xl py-2">
@@ -95,8 +99,7 @@ const About = () => {
                                 className="text-purple-300 hover:text-blue-500"
                             >
                                 cover letter
-                            </a>
-                            .
+                            </a>.
                         </p>
                     </div>
                 </motion.div>
