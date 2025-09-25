@@ -62,7 +62,7 @@ const About = () => {
                         </p>
 
                         <p className="my-2 max-w-xl py-2">
-                            Beyond client work and studies, I’ve built personal projects such as my <strong>Developer Portfolio</strong>, <strong>TaskProX</strong>, and an <strong>AI Document Analyzer</strong>, integrating <strong>FastAPI</strong>, <strong>React</strong>, <strong>PostgreSQL</strong>, <strong>MongoDB</strong>, <strong>OpenSearch</strong>, and deployment on <strong>Render</strong> and <strong>Vercel</strong>.
+                            Beyond client work and studies, I’ve built personal projects such as my <strong>Developer Portfolio</strong>, <strong>TaskProX</strong>, and an <strong>AI Document Analyzer</strong>, integrating <strong>FastAPI</strong>, <strong>React</strong>, <strong>PostgreSQL</strong>, <strong>MongoDB</strong>, and deployment on <strong>Render</strong> and <strong>Vercel</strong>.
                         </p>
 
                         <p className="my-2 max-w-xl py-2">

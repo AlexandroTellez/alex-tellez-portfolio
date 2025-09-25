@@ -5,13 +5,13 @@ import {
     SiMysql,
     SiMongodb,
     SiOpensearch,
-    SiAmazondynamodb,
     SiGit,
     SiGnubash,
     SiOpenai,
     SiMlflow,
     SiBitbucket,
     SiVercel,
+    SiMilvus,
 } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { FaDocker } from "react-icons/fa";
@@ -87,14 +87,14 @@ const Technologies = () => {
                     <SiMongodb className="text-7xl text-[#47A248]" />
                 </motion.div>
 
-                {/* OpenSearch */}
-                <motion.div variants={iconVariants(3.6)} initial="initial" animate="animate" className="rounded-full border-4 border-[#005EB8] p-4">
-                    <SiOpensearch className="text-7xl text-[#005EB8]" />
-                </motion.div>
-
-                {/* DynamoDB */}
-                <motion.div variants={iconVariants(4.4)} initial="initial" animate="animate" className="rounded-full border-4 border-[#4053D6] p-4">
-                    <SiAmazondynamodb className="text-7xl text-[#4053D6]" />
+                {/* Milvus */}
+                <motion.div
+                    variants={iconVariants(3.6)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-full border-4 border-[#00BFA5] p-4" // color verde/teal acorde a Milvus branding
+                >
+                    <SiMilvus className="text-7xl text-[#00BFA5]" />
                 </motion.div>
 
                 {/* OpenAI */}
