@@ -14,31 +14,33 @@ export const EXPERIENCES = [
     year: "March 2025 - June 2025",
     role: "Python Engineer",
     company: "Davara & Davara Asesores Jurídicos S.L. (LegalTech)",
-    description: `Contributed to LegalTech solutions for document management and GDPR/LOPDGDD compliance. Developed multi-agent RAG pipelines, authentication with FastAPI and JWT, and scalable backend architectures under DDD. Integrated Generative AI (LangGraph, OpenAI) and NLP (BERT, ADA) with MLOps practices (MLflow, Pytest) and AWS deployments.`,
-    technologies: ["Python", "FastAPI", "JWT", "MongoDB", "LangGraph", "OpenAI (Azure)", "BERT", "ADA embeddings", "MLflow", "Pytest", "AWS (Lambda, AppRunner, S3, CloudFormation)", "Docker", "Podman", "Agile", "Git/BitBucket", "SonarQube"],
+    description: `Contributed to LegalTech solutions for document management and GDPR/LOPDGDD compliance. Built multi-agent RAG pipelines for document generation, implemented authentication with FastAPI and JWT, and designed scalable architectures with DDD. Integrated Generative AI (LangGraph, OpenAI on Azure) and NLP (BERT, ADA) with MLOps practices (MLflow, Pytest).`,
+    technologies: ["Python", "FastAPI", "JWT", "MongoDB", "DDD", "LangGraph", "OpenAI (Azure)", "BERT", "ADA embeddings", "MLflow", "Pytest", "Agile", "Git/GitHub", "BitBucket", "SonarQube", "PEP8"],
   },
   {
     year: "March 2022 - February 2025",
     role: "Administrative Assistant & Data Analyst",
     company: "Venechar Cocinas",
-    description: `Supported production and orders department. Built interactive dashboards and automated reports with Power BI, Excel and Power Query. Monitored KPIs to improve decision-making and optimized workflows through task automation and data structuring.`,
+    description: `Provided administrative support for production and orders, building interactive dashboards and automated reports with Power BI, Excel and Power Query. Monitored KPIs, optimized workflows with task automation, and improved processes through data cleaning and structuring.`,
     technologies: ["Power BI", "Excel (Advanced)", "Power Query", "Data Analysis", "Process Automation"],
   },
   {
     year: "September 2023 - June 2024",
     role: "Python Engineer (Freelance)",
     company: "Private Clients",
-    description: `Delivered scalable Python solutions for private clients, including an AI-powered document analyzer, a task management API, and an NLP chatbot for legal queries. Focused on FastAPI backends, secure authentication, AI/NLP integrations, and cloud-ready deployments.`,
-    technologies: ["Python", "FastAPI", "JWT", "PostgreSQL", "MySQL", "MongoDB", "DynamoDB", "OpenSearch", "LangGraph", "OpenAI (Azure)", "BERT", "ADA embeddings", "MLflow", "Pytest", "AWS (Lambda, AppRunner, S3, CloudFormation, CloudWatch, CloudTrail)", "Docker", "Podman", "Docker Compose", "Git/BitBucket", "SonarQube", "Agile"],
+    description: `Delivered scalable Python solutions for private clients, including an AI-powered document analyzer, a task management API, and an NLP chatbot. Focused on FastAPI backends, secure authentication, AI/NLP integrations, and cloud-ready deployments with Docker, Render and Vercel.`,
+    technologies: ["Python", "FastAPI", "JWT", "PostgreSQL", "MySQL", "MongoDB", "DynamoDB", "OpenSearch", "LangGraph", "OpenAI (Azure)", "BERT", "ADA embeddings", "MLflow", "Pytest", "Docker", "Render", "Vercel", "Git/BitBucket", "SonarQube", "Agile"],
   },
   {
     year: "October 2021 - March 2022",
     role: "Python Engineer (Freelance)",
     company: "Institute Dental Espinassi",
-    description: `Developed RESTful APIs with FastAPI and JWT for client data management using MySQL. Built responsive landing pages with React to support marketing campaigns and lead capture. Ensured secure handling and centralized storage of patient records under GDPR compliance.`,
+    description: `Developed RESTful APIs with FastAPI and JWT integrated with MySQL for client data management. Built responsive landing pages with React for lead capture and ensured GDPR-compliant storage of patient records with FastAPI backends.`,
     technologies: ["Python", "FastAPI", "JWT", "MySQL", "React", "Docker", "REST APIs", "Agile", "Git/GitHub"],
   },
 ];
+
+
 export const EDUCATION = [
 
   {
@@ -118,17 +120,12 @@ export const TECHNICAL_SKILLS = {
     {
       id: "programming",
       category: "Programming Languages",
-      skills: ["Python", "FastAPI", "SQL", "Bash"],
+      skills: ["Python (FastAPI)", "SQL", "Bash"],
     },
     {
       id: "backend",
       category: "Backend / APIs",
-      skills: [
-        "FastAPI",
-        "REST APIs",
-        "JWT",
-        "Domain-Driven Design (DDD)"
-      ],
+      skills: ["FastAPI", "REST APIs", "JWT", "Domain-Driven Design (DDD)"],
     },
     {
       id: "databases",
@@ -150,21 +147,18 @@ export const TECHNICAL_SKILLS = {
         "LangGraph",
         "OpenAI models (Azure)",
         "NLP (BERT, ADA embeddings)",
-        "MLflow",
+        "MLflow (model versioning)",
         "MLOps lifecycle",
-        "Pytest (unit testing)"
+        "Pytest (unit testing)",
+        "Bedrock",
+        "SageMaker",
+        "LangFuse"
       ],
     },
     {
       id: "cloud-deployment",
       category: "Cloud & Deployment",
-      skills: [
-        "AWS (Lambda, AppRunner, S3, CloudFormation, CloudWatch, CloudTrail)",
-        "Docker",
-        "Podman",
-        "Docker Compose",
-        "Localstack"
-      ],
+      skills: ["Docker", "Render", "Vercel"],
     },
     {
       id: "tools-platforms",
@@ -173,7 +167,7 @@ export const TECHNICAL_SKILLS = {
         "Git",
         "BitBucket",
         "Pre-commit",
-        "Git best practices",
+        "Git best practices (branch conventions)",
         "SonarQube",
         "VS Code"
       ],
@@ -188,14 +182,9 @@ export const TECHNICAL_SKILLS = {
       category: "Languages",
       skills: ["Spanish (Native)", "English (B2 Certificate)"],
     },
-    {
-      id: "pluses",
-      category: "Pluses",
-      skills: ["Bedrock", "SageMaker", "LangGraph", "LangFuse", "Kubernetes"],
-    },
-
   ],
 };
+
 
 
 /*
@@ -212,19 +201,19 @@ export const PROJECTS = [
     title: "Alex Tellez – Personal Developer Portfolio",
     image: project1,
     description:
-      "Personal portfolio built with React and TailwindCSS, integrated with a FastAPI + PostgreSQL backend. Features a dynamic blog system and an AI-powered search bar using OpenAI embeddings. Deployed with Docker and AWS AppRunner for scalability.",
+      "Personal portfolio built with React and TailwindCSS, integrated with a FastAPI + PostgreSQL backend. Features a dynamic blog system and an AI-powered search bar using OpenAI embeddings for semantic project and skill queries. Deployed with Docker, Render and Vercel.",
     githubUrl: "https://github.com/AlexandroTellez/alex-tellez-portfolio",
     liveUrl: "https://alextellezy.com",
-    technologies: ["React", "TailwindCSS", "FastAPI", "PostgreSQL", "OpenAI embeddings", "Docker", "AWS AppRunner"]
+    technologies: ["React", "TailwindCSS", "FastAPI", "PostgreSQL", "OpenAI embeddings", "Docker", "Render", "Vercel"],
   },
   {
     title: "TaskProX - Project & Task Manager",
     image: project2,
     description:
-      "Complete and responsive web application for collaborative project and task management. Features JWT authentication, role-based permissions, calendar view, Kanban board, file upload, dark/light mode, and an AI-powered chatbot built with LangGraph + OpenAI on Azure.",
+      "Responsive web application for collaborative project and task management. Includes JWT authentication, role-based permissions, calendar view, Kanban board, file upload, dark/light mode, and an AI-powered chatbot assistant built with LangGraph + OpenAI on Azure. Deployed with Docker, Render and Vercel.",
     githubUrl: "https://github.com/AlexandroTellez/TaskProX",
     liveUrl: "https://task-pro-x.vercel.app/login",
-    technologies: ["FastAPI", "MongoDB", "React", "TailwindCSS", "Ant Design", "LangGraph", "OpenAI (Azure)", "Docker", "AWS"]
+    technologies: ["FastAPI", "MongoDB", "React", "TailwindCSS", "Ant Design", "LangGraph", "OpenAI (Azure)", "Docker", "Render", "Vercel"],
   },
   /*
   {
